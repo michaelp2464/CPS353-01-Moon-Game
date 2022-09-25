@@ -1,0 +1,1618 @@
+﻿Log file open, 09/24/22 13:28:14
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: LunarEscape
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.582576
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.59.0
+LogInit: Build: ++UE4+Release-4.27-CL-18319896
+LogInit: Engine Version: 4.27.2-18319896+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+LogInit: Net CL: 17155196
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Nov 30 2021 07:12:08
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line: 
+LogInit: Base Directory: L:/Program Files/Epic Games/UE_4.27/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Engine.ini]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Engine.ini]
+[2022.09.24-17.28.15:210][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Engine.ini]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Engine.ini]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2022.09.24-17.28.15:210][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Engine.ini]
+[2022.09.24-17.28.15:210][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Engine.ini]
+[2022.09.24-17.28.15:232][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Scalability.ini]
+[2022.09.24-17.28.15:232][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.09.24-17.28.15:232][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.09.24-17.28.15:232][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Scalability.ini]
+[2022.09.24-17.28.15:232][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.09.24-17.28.15:232][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Scalability.ini]
+[2022.09.24-17.28.15:232][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.09.24-17.28.15:232][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.09.24-17.28.15:232][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.09.24-17.28.15:232][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.09.24-17.28.15:232][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.09.24-17.28.15:232][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.09.24-17.28.15:232][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.09.24-17.28.15:232][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.09.24-17.28.15:232][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.09.24-17.28.15:232][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.09.24-17.28.15:232][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.09.24-17.28.15:232][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Scalability.ini]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Scalability.ini]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Scalability.ini]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.09.24-17.28.15:233][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Scalability.ini]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Scalability.ini]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.09.24-17.28.15:234][  0]LogInit: Selected Device Profile: [Windows]
+[2022.09.24-17.28.15:234][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.09.24-17.28.15:234][  0]LogHAL: Display: Platform has ~ 16 GB [17077833728 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.09.24-17.28.15:234][  0]LogInit: Going up to parent DeviceProfile []
+[2022.09.24-17.28.15:234][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Scalability.ini]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Scalability.ini]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Scalability.ini]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.09.24-17.28.15:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Scalability.ini]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Scalability.ini]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Scalability.ini]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.09.24-17.28.15:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.09.24-17.28.15:236][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.09.24-17.28.15:236][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.09.24-17.28.15:236][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.09.24-17.28.15:236][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.09.24-17.28.15:236][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.09.24-17.28.15:236][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.09.24-17.28.15:236][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Scalability.ini]
+[2022.09.24-17.28.15:236][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.09.24-17.28.15:236][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.09.24-17.28.15:236][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Scalability.ini]
+[2022.09.24-17.28.15:236][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.09.24-17.28.15:236][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.09.24-17.28.15:236][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.09.24-17.28.15:236][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.09.24-17.28.15:236][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.09.24-17.28.15:236][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.09.24-17.28.15:236][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.09.24-17.28.15:236][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Engine.ini]
+[2022.09.24-17.28.15:236][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [L:/CPS353-01-Moon-Game/LunarEscape/Saved/Config/Windows/Editor.ini]
+[2022.09.24-17.28.15:236][  0]LogInit: Computer: SESSIOMS-PC
+[2022.09.24-17.28.15:236][  0]LogInit: User: joshc
+[2022.09.24-17.28.15:236][  0]LogInit: CPU Page size=4096, Cores=4
+[2022.09.24-17.28.15:236][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.09.24-17.28.15:237][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.09.24-17.28.15:237][  0]LogMemory: Platform Memory Stats for Windows
+[2022.09.24-17.28.15:237][  0]LogMemory: Process Physical Memory: 142.83 MB used, 142.84 MB peak
+[2022.09.24-17.28.15:237][  0]LogMemory: Process Virtual Memory: 118.26 MB used, 118.26 MB peak
+[2022.09.24-17.28.15:237][  0]LogMemory: Physical Memory: 6851.73 MB used,  9434.96 MB free, 16286.69 MB total
+[2022.09.24-17.28.15:237][  0]LogMemory: Virtual Memory: 134207768.00 MB used,  9956.45 MB free, 134217728.00 MB total
+[2022.09.24-17.28.15:242][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.09.24-17.28.15:294][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.09.24-17.28.15:295][  0]LogInit: Using OS detected language (en-US).
+[2022.09.24-17.28.15:295][  0]LogInit: Using OS detected locale (en-US).
+[2022.09.24-17.28.15:297][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2022.09.24-17.28.15:499][  0]LogInit: Setting process to per monitor DPI aware
+[2022.09.24-17.28.15:522][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.09.24-17.28.15:543][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.09.24-17.28.15:543][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.09.24-17.28.15:700][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2022.09.24-17.28.15:704][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.09.24-17.28.15:704][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.09.24-17.28.15:704][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.09.24-17.28.15:704][  0]LogD3D11RHI: D3D11 adapters:
+[2022.09.24-17.28.15:818][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2022.09.24-17.28.15:819][  0]LogD3D11RHI:       8088/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.09.24-17.28.15:877][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2022.09.24-17.28.15:877][  0]LogD3D11RHI:       128/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.09.24-17.28.15:881][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.09.24-17.28.15:881][  0]LogD3D11RHI:       0/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.09.24-17.28.15:882][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2022.09.24-17.28.15:882][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 1070
+[2022.09.24-17.28.15:882][  0]LogD3D11RHI:     VendorId    : 10de
+[2022.09.24-17.28.15:882][  0]LogD3D11RHI:     DeviceId    : 1b81
+[2022.09.24-17.28.15:882][  0]LogD3D11RHI:     SubSysId    : 33011028
+[2022.09.24-17.28.15:882][  0]LogD3D11RHI:     Revision    : 00a1
+[2022.09.24-17.28.15:882][  0]LogD3D11RHI:     DedicatedVideoMemory : 8480882688 bytes
+[2022.09.24-17.28.15:882][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2022.09.24-17.28.15:882][  0]LogD3D11RHI:     SharedSystemMemory : 8538916864 bytes
+[2022.09.24-17.28.15:882][  0]LogD3D11RHI:     AdapterLuid : 0 71877
+[2022.09.24-17.28.15:888][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.09.24-17.28.15:888][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2022.09.24-17.28.15:888][  0]LogWindows: EnumDisplayDevices:
+[2022.09.24-17.28.15:888][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2022.09.24-17.28.15:889][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2022.09.24-17.28.15:889][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2022.09.24-17.28.15:889][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2022.09.24-17.28.15:890][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2022.09.24-17.28.15:890][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2022.09.24-17.28.15:890][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2022.09.24-17.28.15:890][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2022.09.24-17.28.15:890][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2022.09.24-17.28.15:890][  0]LogD3D11RHI:   Driver Version: 511.79 (internal:30.0.15.1179, unified:511.79)
+[2022.09.24-17.28.15:890][  0]LogD3D11RHI:      Driver Date: 2-10-2022
+[2022.09.24-17.28.15:890][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2022.09.24-17.28.15:890][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2022.09.24-17.28.15:890][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 1070
+[2022.09.24-17.28.15:890][  0]LogD3D11RHI:     VendorId    : 10de
+[2022.09.24-17.28.15:890][  0]LogD3D11RHI:     DeviceId    : 1b81
+[2022.09.24-17.28.15:890][  0]LogD3D11RHI:     SubSysId    : 33011028
+[2022.09.24-17.28.15:890][  0]LogD3D11RHI:     Revision    : 00a1
+[2022.09.24-17.28.15:890][  0]LogD3D11RHI:     DedicatedVideoMemory : 8480882688 bytes
+[2022.09.24-17.28.15:890][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2022.09.24-17.28.15:890][  0]LogD3D11RHI:     SharedSystemMemory : 8538916864 bytes
+[2022.09.24-17.28.15:890][  0]LogD3D11RHI:     AdapterLuid : 0 71877
+[2022.09.24-17.28.15:958][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.09.24-17.28.15:958][  0]LogD3D11RHI: Async texture creation enabled
+[2022.09.24-17.28.15:958][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.09.24-17.28.15:983][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.09.24-17.28.16:037][  0]LogRHI: GeForceNow SDK initialized: 1
+[2022.09.24-17.28.16:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.09.24-17.28.16:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.09.24-17.28.16:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.09.24-17.28.16:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.09.24-17.28.16:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.09.24-17.28.16:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.09.24-17.28.16:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.09.24-17.28.16:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.09.24-17.28.16:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.09.24-17.28.16:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.09.24-17.28.16:441][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.09.24-17.28.16:461][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.09.24-17.28.16:461][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.09.24-17.28.16:472][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.09.24-17.28.16:476][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.09.24-17.28.16:481][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.09.24-17.28.16:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.09.24-17.28.16:496][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.09.24-17.28.16:500][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.09.24-17.28.16:504][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.09.24-17.28.16:532][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.09.24-17.28.16:532][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.09.24-17.28.16:541][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2022.09.24-17.28.16:546][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2022.09.24-17.28.16:550][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2022.09.24-17.28.16:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2022.09.24-17.28.16:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.09.24-17.28.16:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.09.24-17.28.16:576][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.09.24-17.28.16:581][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.09.24-17.28.16:585][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.09.24-17.28.16:591][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.09.24-17.28.16:591][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.09.24-17.28.16:598][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.09.24-17.28.16:626][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2022.09.24-17.28.16:658][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.09.24-17.28.16:658][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../../CPS353-01-Moon-Game/LunarEscape/Intermediate/Shaders/WorkingDirectory/13164/).
+[2022.09.24-17.28.16:658][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/joshc/AppData/Local/Temp/UnrealShaderWorkingDir/BD7818D8469AABFFA723F19C6AD6BEA2/'.
+[2022.09.24-17.28.16:658][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.09.24-17.28.16:658][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.09.24-17.28.16:658][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.09.24-17.28.17:411][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.09.24-17.28.17:488][  0]LogDerivedDataCache: Loaded boot cache 0.08s 94MB C:/Users/joshc/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2022.09.24-17.28.17:488][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/joshc/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2022.09.24-17.28.17:488][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../CPS353-01-Moon-Game/LunarEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.09.24-17.28.17:488][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.09.24-17.28.17:488][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../CPS353-01-Moon-Game/LunarEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.09.24-17.28.17:488][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.09.24-17.28.17:505][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.09.24-17.28.17:505][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.09.24-17.28.17:505][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.09.24-17.28.17:518][  0]LogDerivedDataCache: Speed tests for C:/Users/joshc/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2022.09.24-17.28.17:518][  0]LogDerivedDataCache: Display: Performance to C:/Users/joshc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=203.62MBs, RandomWriteSpeed=121.15MBs. Assigned SpeedClass 'Local'
+[2022.09.24-17.28.17:519][  0]LogDerivedDataCache: Using Local data cache path C:/Users/joshc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.09.24-17.28.17:519][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.09.24-17.28.17:519][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.09.24-17.28.17:569][  0]LogSlate: Using FreeType 2.10.0
+[2022.09.24-17.28.17:569][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.09.24-17.28.17:598][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
+[2022.09.24-17.28.17:886][  0]LogInit: Selected Device Profile: [Windows]
+[2022.09.24-17.28.17:886][  0]LogInit: Active device profile: [000001ACD9C10D00][000001ACDA72F280 49] Windows
+[2022.09.24-17.28.17:886][  0]LogInit: Profiles: [000001ACD9C10D00][000001ACDA72F280 49] Windows, [000001ACD9BBE300][000001ACDA737400 49] WindowsNoEditor, [000001ACD9C11C00][000001ACDA73B580 49] WindowsServer, [000001ACD9BBF100][000001ACDA73F700 49] WindowsClient, [000001ACD9C12900][000001ACDA743880 49] IOS, [000001ACD9BBDA00][000001ACDA747A00 49] iPadAir, [000001ACD9C13E00][000001ACDA74BB80 49] iPadAir2, [000001ACD9B59100][000001ACDA7A62C0 49] IPadPro, [000001ACD9B59200][000001ACDA7A2300 49] iPadAir3, [000001ACD9BBCC00][000001ACDA7AA480 49] iPadAir4, [000001ACD9B59E00][000001ACDA7AE600 49] iPadMini2, [000001ACD9BBF300][000001ACDA732740 49] iPadMini3, [000001ACD9B5B900][000001ACDA7B2880 49] iPadMini4, [000001ACD9BBD000][000001ACDA7B69C0 49] iPadMini5, [000001ACD9B60900][000001ACDA7C2C40 49] iPhone6, [000001ACD9B60A00][000001ACDA7BAC80 49] iPodTouch6, [000001ACD9C12E00][000001ACDA7CAF40 49] iPhone7, [000001ACD9C12F00][000001ACDA7C6F80 49] iPodTouch7, [000001ACD9B5BE00][000001ACDA7CF100 49] iPhone5S, [000001ACD9C10F00][000001ACDA7D3280 49] iPhone6Plus, [000001ACD9B60100][000001ACDA7D7400 49] iPhone6S, [000001ACD9B58300][000001ACDA7DB580 49] iPhone6SPlus, [000001ACD9B62800][000001ACDA7DF700 49] iPhone7Plus, [000001ACD9B5A400][000001ACDA7E3880 49] iPhoneSE, [000001ACD9B62600][000001ACDA7E7A00 49] iPhone8, [000001ACD9B58400][000001ACDA7EBB80 49] iPhone8Plus, [000001ACD9B63100][000001ACDA800180 49] iPhoneX, [000001ACD9C11400][000001ACDA804300 49] iPhoneXS, [000001ACD9B62B00][000001ACDA808480 49] iPhoneXSMax, [000001ACD9C10700][000001ACDA80C600 49] iPhoneXR, [000001ACD9B60800][000001ACDA810780 49] iPhone11, [000001ACD9C11100][000001ACDA814900 49] iPhone11Pro, [000001ACD9B61A00][000001ACDA7BEA40 49] iPhone11ProMax, [000001ACD9C13700][000001ACDA818B80 49] iPhoneSE2, [000001ACD9B63800][000001ACDA81CCC0 49] iPhone12Mini, [000001ACD9C12300][000001ACDA824E40 49] iPhone12, [000001ACD9B63200][000001ACDA828FC0 49] iPhone12Pro, [000001ACD9C11300][000001ACDA82D140 49] iPhone12ProMax, [000001ACD9B61500][000001ACDA8312C0 49] iPadPro105, [000001ACD9C10A00][000001ACDA835440 49] iPadPro129, [000001ACD9B63D00][000001ACDA8395C0 49] iPadPro97, [000001ACD9C12A00][000001ACDA83D740 49] iPadPro2_129, [000001ACD9B62900][000001ACDA8418C0 49] iPad5, [000001ACD9C11E00][000001ACDA845A40 49] iPad6, [000001ACD9B61300][000001ACDA849BC0 49] iPad7, [000001ACD9C10200][000001ACDA84C1C0 49] iPad8, [000001ACD9B60400][000001ACDA850340 49] iPadPro11, [000001ACD9C11A00][000001ACDA8544C0 49] iPadPro2_11, [000001ACD9B61600][000001ACDA858640 49] iPadPro3_129, [000001ACD9C12700][000001ACDA85C7C0 49] iPadPro4_129, [000001ACD9B60200][000001ACDA860940 49] AppleTV, [000001ACD9C10900][000001ACDA864AC0 49] AppleTV4K, [000001ACD9B61D00][000001ACDA820C00 49] TVOS, [000001ACD9C12D00][000001ACDA868D40 49] Mac, [000001ACD9B63600][000001ACDA86CE80 49] MacClient, [000001ACD9C13900][000001ACDA870FC0 49] MacNoEditor, [000001ACD9B63500][000001ACDA879140 49] MacServer, [000001ACD9C11200][000001ACDA87D2C0 49] Linux, [000001ACD9B61C00][000001ACDA881440 49] LinuxAArch64, [000001ACD9C13C00][000001ACDA8855C0 49] LinuxNoEditor, [000001ACD9B62300][000001ACDA889740 49] LinuxAArch64NoEditor, [000001ACD9C11B00][000001ACDA88D8C0 49] LinuxClient, [000001ACD9B62500][000001ACDA891A40 49] LinuxAArch64Client, [000001ACD9C10E00][000001ACDA895BC0 49] LinuxServer, [000001ACD9B63900][000001ACDA8981C0 49] LinuxAArch64Server, [000001ACD9C13500][000001ACDA89C340 49] Android, [000001ACD9B61E00][000001ACDA8A04C0 49] Android_Low, [000001ACD9C11F00][000001ACDA8A4640 49] Android_Mid, [000001ACD9B62200][000001ACDA8A87C0 49] Android_High, [000001ACD9C13F00][000001ACDA8C4940 49] Android_Default, [000001ACD9B62000][000001ACDA900AC0 49] Android_Adreno4xx, [000001ACD9C13D00][000001ACDA91CC40 49] Android_Adreno5xx_Low, [000001ACD9B62A00][000001ACDA874D80 49] Android_Adreno5xx, [000001ACD9C13800][000001ACDA920EC0 49] Android_Adreno6xx, [000001ACD9BBC500][000001ACDA925000 49] Android_Adreno6xx_Vulkan, [000001ACD9B59400][000001ACDA929140 49] Android_Mali_T6xx, [000001ACD9BBD100][000001ACDA9312C0 49] Android_Mali_T7xx, [000001ACD9B5AD00][000001ACDA9BF440 49] Android_Mali_T8xx, [000001ACD9BBEF00][000001ACD7FE95C0 49] Android_Mali_G71, [000001ACD9B5B400][000001ACD7FED740 49] Android_Mali_G72, [000001ACD9BBD700][000001ACD80098C0 49] Android_Mali_G72_Vulkan, [000001ACD9B59300][000001ACD800DA40 49] Android_Mali_G76, [000001ACD9BBFD00][000001ACD8021BC0 49] Android_Mali_G76_Vulkan, [000001ACD9B5AC00][000001ACCBCE81C0 49] Android_Mali_G77, [000001ACD9BBD500][000001ACCBD18340 49] Android_Mali_G77_Vulkan, [000001ACD9B59800][000001ACCBD4E4C0 49] Android_Mali_G78, [000001ACD9BBE200][000001ACCBD52640 49] Android_Mali_G78_Vulkan, [000001ACD9B5BD00][000001ACCBD567C0 49] Android_Mali_G710, [000001ACD9BBC300][000001ACD5D22940 49] Android_Mali_G710_Vulkan, [000001ACD9B58200][000001ACD5D58AC0 49] Android_Vulkan_SM5, [000001ACD9BBC800][000001ACD5D5CC40 49] Android_PowerVR_G6xxx, [000001ACD9B5A500][000001ACD5D60E00 49] Android_PowerVR_GT7xxx, [000001ACD9BBCE00][000001ACDA92CF40 49] Android_PowerVR_GE8xxx, [000001ACD9B59500][000001ACD5D65080 49] Android_PowerVR_GM9xxx, [000001ACD9BBCD00][000001ACD5D691C0 49] Android_PowerVR_GM9xxx_Vulkan, [000001ACD9B59900][000001ACD5D6D300 49] Android_TegraK1, [000001ACD9BBC600][000001ACD5D8D480 49] Android_Unknown_Vulkan, [000001ACD9B5B800][000001ACD5D91600 49] Lumin, [000001ACD9BBE600][000001ACCBA15780 49] Lumin_Desktop, [000001ACD9B5BB00][000001ACCBA19900 49] HoloLens, 
+[2022.09.24-17.28.18:082][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.09.24-17.28.18:082][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.09.24-17.28.18:082][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.09.24-17.28.18:082][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.09.24-17.28.18:082][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.09.24-17.28.18:101][  0]LogNetVersion: LunarEscape 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 1900145690)
+[2022.09.24-17.28.18:611][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.09.24-17.28.18:691][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2022.09.24-17.28.18:699][  0]LogUObjectArray: 17178 objects as part of root set at end of initial load.
+[2022.09.24-17.28.18:699][  0]LogUObjectAllocator: 4302048 out of 0 bytes used by permanent object pool.
+[2022.09.24-17.28.18:699][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.09.24-17.28.19:254][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: ACB9A1384FB38E8998456BBCCF475892 | Instance: 88E5FCAB431D6EF993B9ACA305A62EEF (SESSIOMS-PC-13164).
+[2022.09.24-17.28.19:371][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.09.24-17.28.19:376][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.09.24-17.28.22:670][  0]LogPython: Using Python 3.7.7
+[2022.09.24-17.28.23:418][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.09.24-17.28.23:439][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.09.24-17.28.23:439][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.09.24-17.28.23:662][  0]LogOpenImageDenoise: OIDN starting up
+[2022.09.24-17.28.23:682][  0]SourceControl: Source control is disabled
+[2022.09.24-17.28.23:682][  0]SourceControl: Source control is disabled
+[2022.09.24-17.28.23:685][  0]SourceControl: Source control is disabled
+[2022.09.24-17.28.23:688][  0]SourceControl: Source control is disabled
+[2022.09.24-17.28.23:694][  0]SourceControl: Source control is disabled
+[2022.09.24-17.28.23:702][  0]LogUProjectInfo: Found projects:
+[2022.09.24-17.28.23:714][  0]LogCollectionManager: Loaded 0 collections in 0.000982 seconds
+[2022.09.24-17.28.23:738][  0]LogFileCache: Scanning file cache for directory 'L:/CPS353-01-Moon-Game/LunarEscape/Saved/Collections/' took 0.00s
+[2022.09.24-17.28.23:738][  0]LogFileCache: Scanning file cache for directory 'L:/CPS353-01-Moon-Game/LunarEscape/Content/Developers/joshc/Collections/' took 0.00s
+[2022.09.24-17.28.23:738][  0]LogFileCache: Scanning file cache for directory 'L:/CPS353-01-Moon-Game/LunarEscape/Content/Collections/' took 0.00s
+[2022.09.24-17.28.23:738][  0]LogOcInput: OculusInput pre-init called
+[2022.09.24-17.28.24:010][  0]LogEngine: Initializing Engine...
+[2022.09.24-17.28.24:012][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2022.09.24-17.28.24:013][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.09.24-17.28.24:013][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.09.24-17.28.24:013][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.09.24-17.28.24:137][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.09.24-17.28.24:145][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.09.24-17.28.24:163][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.09.24-17.28.24:167][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2022.09.24-17.28.24:167][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2022.09.24-17.28.24:168][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.09.24-17.28.24:168][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.09.24-17.28.24:168][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.24-17.28.24:168][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.24-17.28.24:168][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.24-17.28.24:168][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.24-17.28.24:168][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.24-17.28.24:168][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.24-17.28.24:168][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.24-17.28.24:168][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.24-17.28.24:168][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.24-17.28.24:168][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.24-17.28.24:168][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.24-17.28.24:168][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.24-17.28.24:205][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.24-17.28.24:205][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.09.24-17.28.24:232][  0]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX 7.1 Audio)
+[2022.09.24-17.28.24:235][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.24-17.28.24:237][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.24-17.28.24:237][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.24-17.28.24:238][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.24-17.28.24:238][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.24-17.28.24:238][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.24-17.28.24:239][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.24-17.28.24:239][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.24-17.28.24:239][  0]LogInit: FAudioDevice initialized.
+[2022.09.24-17.28.24:239][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.09.24-17.28.24:239][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.09.24-17.28.24:338][  0]LogDerivedDataCache: Saved boot cache 0.10s 94MB C:/Users/joshc/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2022.09.24-17.28.24:338][  0]LogInit: Texture streaming: Enabled
+[2022.09.24-17.28.24:350][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.27.2-18319896+++UE4+Release-4.27
+[2022.09.24-17.28.24:354][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.09.24-17.28.24:354][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.09.24-17.28.24:356][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.09.24-17.28.24:378][  0]LogInit: Transaction tracking system initialized
+[2022.09.24-17.28.24:396][  0]BlueprintLog: New page: Editor Load
+[2022.09.24-17.28.24:450][  0]LocalizationService: Localization service is disabled
+[2022.09.24-17.28.24:471][  0]TimingProfiler: Initialize
+[2022.09.24-17.28.24:471][  0]TimingProfiler: OnSessionChanged
+[2022.09.24-17.28.24:472][  0]LoadingProfiler: Initialize
+[2022.09.24-17.28.24:472][  0]LoadingProfiler: OnSessionChanged
+[2022.09.24-17.28.24:472][  0]NetworkingProfiler: Initialize
+[2022.09.24-17.28.24:472][  0]NetworkingProfiler: OnSessionChanged
+[2022.09.24-17.28.24:472][  0]MemoryProfiler: Initialize
+[2022.09.24-17.28.24:472][  0]MemoryProfiler: OnSessionChanged
+[2022.09.24-17.28.24:606][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2022.09.24-17.28.24:606][  0]LogCook: Display: Mobile HDR setting 1
+[2022.09.24-17.28.24:783][  0]LogFileCache: Scanning file cache for directory 'L:/CPS353-01-Moon-Game/LunarEscape/Content/' took 0.00s
+[2022.09.24-17.28.25:004][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.09.24-17.28.25:007][  0]SourceControl: Source control is disabled
+[2022.09.24-17.28.25:007][  0]LogUnrealEdMisc: Loading editor; pre map load, took 11.266
+[2022.09.24-17.28.25:007][  0]Cmd: MAP LOAD FILE="../../../../../../CPS353-01-Moon-Game/LunarEscape/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.24-17.28.25:007][  0]LightingResults: New page: Lighting Build
+[2022.09.24-17.28.25:008][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.09.24-17.28.25:009][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.24-17.28.25:009][  0]MapCheck: New page: Map Check
+[2022.09.24-17.28.25:009][  0]LightingResults: New page: Lighting Build
+[2022.09.24-17.28.25:014][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.24-17.28.25:016][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.09.24-17.28.25:274][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonExampleMap'.
+[2022.09.24-17.28.25:276][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.09.24-17.28.25:281][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.24-17.28.25:291][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2022.09.24-17.28.25:292][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.24-17.28.25:293][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.173ms to complete.
+[2022.09.24-17.28.25:293][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.285
+[2022.09.24-17.28.25:295][  0]LogUnrealEdMisc: Total Editor Startup Time, took 11.554
+[2022.09.24-17.28.25:404][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.28.25:411][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.28.25:419][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.28.25:425][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.24-17.28.25:439][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0092 seconds. Added 3822 classes and 928 folders.
+[2022.09.24-17.28.25:441][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.09.24-17.28.25:442][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.09.24-17.28.25:442][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:442][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.09.24-17.28.25:442][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPerson.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:442][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPerson.upack)
+[2022.09.24-17.28.25:442][  0]LogPakFile: OnPakFileMounted2Time == 0.000057
+[2022.09.24-17.28.25:443][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.09.24-17.28.25:443][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:443][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.09.24-17.28.25:443][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:443][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack)
+[2022.09.24-17.28.25:443][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2022.09.24-17.28.25:443][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2022.09.24-17.28.25:443][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:443][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2022.09.24-17.28.25:443][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/MobileStarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:443][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/MobileStarterContent.upack)
+[2022.09.24-17.28.25:443][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2022.09.24-17.28.25:444][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.09.24-17.28.25:444][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:444][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.09.24-17.28.25:444][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/StarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:444][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/StarterContent.upack)
+[2022.09.24-17.28.25:444][  0]LogPakFile: OnPakFileMounted2Time == 0.000053
+[2022.09.24-17.28.25:445][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.09.24-17.28.25:445][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:445][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.09.24-17.28.25:445][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:445][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScroller.upack)
+[2022.09.24-17.28.25:445][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2022.09.24-17.28.25:445][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.09.24-17.28.25:445][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:445][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.09.24-17.28.25:445][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:445][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack)
+[2022.09.24-17.28.25:445][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2022.09.24-17.28.25:446][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.09.24-17.28.25:446][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:446][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.09.24-17.28.25:446][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Flying.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:446][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Flying.upack)
+[2022.09.24-17.28.25:446][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2022.09.24-17.28.25:446][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.09.24-17.28.25:446][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:446][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.09.24-17.28.25:446][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_FlyingBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:446][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_FlyingBP.upack)
+[2022.09.24-17.28.25:446][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2022.09.24-17.28.25:447][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.09.24-17.28.25:447][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:447][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.09.24-17.28.25:447][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_HandheldARBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:447][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_HandheldARBP.upack)
+[2022.09.24-17.28.25:447][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2022.09.24-17.28.25:447][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.09.24-17.28.25:447][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:447][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.09.24-17.28.25:447][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Puzzle.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:447][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Puzzle.upack)
+[2022.09.24-17.28.25:447][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2022.09.24-17.28.25:448][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.09.24-17.28.25:448][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:448][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.09.24-17.28.25:448][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_PuzzleBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:449][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_PuzzleBP.upack)
+[2022.09.24-17.28.25:449][  0]LogPakFile: OnPakFileMounted2Time == 0.000083
+[2022.09.24-17.28.25:449][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.09.24-17.28.25:449][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:450][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.09.24-17.28.25:450][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Rolling.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:450][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Rolling.upack)
+[2022.09.24-17.28.25:450][  0]LogPakFile: OnPakFileMounted2Time == 0.000051
+[2022.09.24-17.28.25:450][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.09.24-17.28.25:450][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:450][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.09.24-17.28.25:450][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_RollingBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:450][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_RollingBP.upack)
+[2022.09.24-17.28.25:450][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2022.09.24-17.28.25:450][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.09.24-17.28.25:450][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:450][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.09.24-17.28.25:450][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:451][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScroller.upack)
+[2022.09.24-17.28.25:451][  0]LogPakFile: OnPakFileMounted2Time == 0.000049
+[2022.09.24-17.28.25:451][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.09.24-17.28.25:451][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:451][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.09.24-17.28.25:451][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:451][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack)
+[2022.09.24-17.28.25:451][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2022.09.24-17.28.25:452][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.09.24-17.28.25:452][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:452][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.09.24-17.28.25:452][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPerson.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:452][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPerson.upack)
+[2022.09.24-17.28.25:452][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2022.09.24-17.28.25:452][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.09.24-17.28.25:452][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:452][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.09.24-17.28.25:452][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:452][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack)
+[2022.09.24-17.28.25:452][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2022.09.24-17.28.25:453][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.09.24-17.28.25:453][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:453][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.09.24-17.28.25:453][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDown.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:453][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDown.upack)
+[2022.09.24-17.28.25:453][  0]LogPakFile: OnPakFileMounted2Time == 0.000041
+[2022.09.24-17.28.25:453][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.09.24-17.28.25:453][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:453][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.09.24-17.28.25:453][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDownBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:453][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDownBP.upack)
+[2022.09.24-17.28.25:453][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2022.09.24-17.28.25:454][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.09.24-17.28.25:454][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:454][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.09.24-17.28.25:454][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStick.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:454][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStick.upack)
+[2022.09.24-17.28.25:454][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2022.09.24-17.28.25:454][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.09.24-17.28.25:454][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:454][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.09.24-17.28.25:454][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStickBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:454][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStickBP.upack)
+[2022.09.24-17.28.25:454][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2022.09.24-17.28.25:454][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.09.24-17.28.25:454][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:454][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.09.24-17.28.25:455][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Vehicle.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:455][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Vehicle.upack)
+[2022.09.24-17.28.25:455][  0]LogPakFile: OnPakFileMounted2Time == 0.000065
+[2022.09.24-17.28.25:455][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2022.09.24-17.28.25:455][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:455][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2022.09.24-17.28.25:455][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdv.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:455][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdv.upack)
+[2022.09.24-17.28.25:455][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2022.09.24-17.28.25:456][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.09.24-17.28.25:456][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:456][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.09.24-17.28.25:456][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:456][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack)
+[2022.09.24-17.28.25:456][  0]LogPakFile: OnPakFileMounted2Time == 0.000040
+[2022.09.24-17.28.25:456][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.09.24-17.28.25:456][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:456][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.09.24-17.28.25:456][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:456][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleBP.upack)
+[2022.09.24-17.28.25:456][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2022.09.24-17.28.25:457][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.09.24-17.28.25:457][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.09.24-17.28.25:457][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.09.24-17.28.25:457][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.09.24-17.28.25:457][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:L:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack)
+[2022.09.24-17.28.25:457][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2022.09.24-17.28.25:500][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.09.24-17.28.25:502][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2022.09.24-17.28.25:585][  0]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.09.24-17.28.25:587][  0]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.09.24-17.28.25:589][  0]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.09.24-17.28.25:687][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2022.09.24-17.28.25:816][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.09.24-17.28.25:816][  0]LogInput: Warning: Action Jump uses invalid key OculusGo_Left_Trigger_Click.
+[2022.09.24-17.28.25:816][  0]LogInput: Warning: Action ResetVR uses invalid key OculusGo_Left_Trackpad_Click.
+[2022.09.24-17.28.25:817][  0]LogInput: Warning: Use -RemoveInvalidKeys to remove instances of these keys from the action mapping.
+[2022.09.24-17.28.25:817][  0]LogLoad: (Engine Initialization) Total time: 12.08 seconds
+[2022.09.24-17.28.25:817][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.09.24-17.28.25:860][  0]LogAssetRegistry: Asset discovery search completed in 8.2637 seconds
+[2022.09.24-17.28.25:865][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2022.09.24-17.28.25:867][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.09.24-17.28.25:955][  4]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.24-17.28.35:965][194]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.24-17.28.36:003][194]LogLinker: Warning: Asset '../../../../../../CPS353-01-Moon-Game/LunarEscape/Content/MSPresets/MSTextures/Metalness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2022.09.24-17.28.44:748][163]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.09.24-17.28.44:759][163]LogContentBrowser: Creating deferred item: NewFolder
+[2022.09.24-17.28.47:222][455]LogContentBrowser: Attempting asset rename: NewFolder -> Joshua
+[2022.09.24-17.28.47:222][455]LogContentBrowser: End creating deferred item NewFolder
+[2022.09.24-17.28.50:955][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.09.24-17.29.02:251][987]LogSlate: Window 'Color Picker' being destroyed
+[2022.09.24-17.31.46:408][596]LogDirectoryWatcher: Display: A directory notification failed for 'L:/CPS353-01-Moon-Game/LunarEscape/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2022.09.24-17.31.46:408][596]LogDirectoryWatcher: Display: A directory notification failed for 'L:/CPS353-01-Moon-Game/LunarEscape/Content/Developers/joshc/Collections/' because it could not be accessed. Aborting watch request...
+[2022.09.24-17.31.46:408][596]LogDirectoryWatcher: Display: A directory notification failed for 'L:/CPS353-01-Moon-Game/LunarEscape/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2022.09.24-17.32.55:128][744]LogContentBrowser: Attempting asset rename: StarterBundle -> SpaceStationAssets
+[2022.09.24-17.32.58:275][744]LogTexture: Display: Building textures: T_Hall_Sec_Corner_M (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.32.58:275][744]LogStaticMesh: Building static mesh SM_Hall_Win_PipeEdge...
+[2022.09.24-17.32.58:338][744]LogStaticMesh: Built static mesh [0.06s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Hall_Win_PipeEdge.SM_Hall_Win_PipeEdge
+[2022.09.24-17.32.58:377][744]LogStaticMesh: Building static mesh SM_Hall_Wall_C_2...
+[2022.09.24-17.32.58:389][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.32.58:430][744]LogStaticMesh: Built static mesh [0.05s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Hall_Wall_C_2.SM_Hall_Wall_C_2
+[2022.09.24-17.33.04:240][744]LogTexture: Display: Building textures: T_Hall_Floor_Sec_C_2_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.04:240][744]LogTexture: Display: Building textures: T_Hall_Floor_Sec_C_2_N_normals (OODLE_BC5, 4096X4096)
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTexture: Display: Building textures: T_Hall_Sec_Corner_N_normals (OODLE_BC5, 4096X4096)
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTexture: Display: Building textures: T_Hall_Floor_Sec_C_2_Diff (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTexture: Display: Building textures: T_Hall_Sec_Corner_Diff (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.04:240][744]LogTexture: Display: Building textures: T_Hall_Floor_Sec_Diff (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTexture: Display: Building textures: T_Hall_Floor_Sec_C_N_normals (OODLE_BC5, 4096X4096)
+[2022.09.24-17.33.04:240][744]LogTexture: Display: Building textures: T_Hall_Floor_Sec_C_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTexture: Display: Building textures: T_Hall_Floor_Sec_B_N_normals (OODLE_BC5, 2048X2048)
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.04:240][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:241][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:241][744]LogTexture: Display: Building textures: T_Hall_Floor_Sec_B_M (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.04:241][744]LogTexture: Display: Building textures: T_Hall_Floor_Sec_B_Diff (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.04:241][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:241][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:241][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:241][744]LogTexture: Display: Building textures: T_Hall_Floor_Sec_A_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.04:241][744]LogTexture: Display: Building textures: T_Hall_Floor_Sec_A_N_normals (OODLE_BC5, 4096X4096)
+[2022.09.24-17.33.04:241][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:241][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.04:241][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.04:241][744]LogStaticMesh: Building static mesh SM_Hall_Sec_Corner...
+[2022.09.24-17.33.04:261][744]LogStaticMesh: Built static mesh [0.02s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Hall_Sec_Corner.SM_Hall_Sec_Corner
+[2022.09.24-17.33.04:334][744]LogStaticMesh: Building static mesh SM_Hall_Floor_Sec_C_2...
+[2022.09.24-17.33.04:374][744]LogStaticMesh: Built static mesh [0.04s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Hall_Floor_Sec_C_2.SM_Hall_Floor_Sec_C_2
+[2022.09.24-17.33.04:470][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.04:470][744]LogStaticMesh: Building static mesh SM_Hall_Floor_Sec_C...
+[2022.09.24-17.33.04:533][744]LogStaticMesh: Built static mesh [0.06s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Hall_Floor_Sec_C.SM_Hall_Floor_Sec_C
+[2022.09.24-17.33.04:584][744]LogStaticMesh: Building static mesh SM_Hall_Floor_Sec_B...
+[2022.09.24-17.33.04:609][744]LogStaticMesh: Built static mesh [0.03s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Hall_Floor_Sec_B.SM_Hall_Floor_Sec_B
+[2022.09.24-17.33.08:024][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.08:024][744]LogTexture: Display: Building textures: T_Hall_Floor_Main_N_normals (OODLE_BC5, 4096X4096)
+[2022.09.24-17.33.08:024][744]LogTexture: Display: Building textures: T_Hall_Floor_Main_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.08:024][744]LogTexture: Display: Building textures: T_Hall_Floor_Main_Diff (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.08:024][744]LogTexture: Display: Building textures: T_Hall_Floor_Sec_A_Diff (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.08:024][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.08:024][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.08:024][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.08:024][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.08:024][744]LogTexture: Display: Building textures: T_Hall_Ceiling_Sec_C_N_normals (OODLE_BC5, 2048X2048)
+[2022.09.24-17.33.08:024][744]LogTexture: Display: Building textures: T_Hall_Ceiling_Sec_C_M (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.08:024][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.08:024][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.08:024][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.08:024][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.08:024][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.08:024][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.08:024][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.08:024][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.08:024][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.08:024][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.08:024][744]LogTexture: Display: Building textures: T_Hall_Ceiling_Sec_C_Diff (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.08:024][744]LogTexture: Display: Building textures: T_Hall_Ceiling_Sec_B_N_normals (OODLE_BC5, 2048X2048)
+[2022.09.24-17.33.08:024][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.08:025][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.08:025][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.08:025][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.08:025][744]LogTexture: Display: Building textures: T_Hall_Ceiling_Sec_B_M (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.08:025][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.08:025][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.08:025][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.08:025][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.08:025][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.08:025][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.08:025][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.08:025][744]LogTexture: Display: Building textures: T_Hall_Ceiling_Sec_B_EM (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.08:025][744]LogTexture: Display: Building textures: T_Hall_Ceiling_Sec_B_Diff (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.08:025][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.08:025][744]LogStaticMesh: Building static mesh SM_Hall_Floor_Sec_A...
+[2022.09.24-17.33.08:045][744]LogStaticMesh: Built static mesh [0.02s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Hall_Floor_Sec_A.SM_Hall_Floor_Sec_A
+[2022.09.24-17.33.08:086][744]LogStaticMesh: Building static mesh SM_Hall_Floor_Main...
+[2022.09.24-17.33.08:127][744]LogTexture: Display: Building textures: T_GlassLightEmissive (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.08:127][744]LogStaticMesh: Built static mesh [0.04s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Hall_Floor_Main.SM_Hall_Floor_Main
+[2022.09.24-17.33.08:167][744]LogTexture: Display: Building textures: T_Hall_Ceiling_Sec_A_N_normals (OODLE_BC5, 4096X4096)
+[2022.09.24-17.33.08:184][744]LogStaticMesh: Building static mesh SM_Hall_Ceiling_Sec_C...
+[2022.09.24-17.33.08:210][744]LogStaticMesh: Built static mesh [0.03s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Hall_Ceiling_Sec_C.SM_Hall_Ceiling_Sec_C
+[2022.09.24-17.33.10:173][744]LogTexture: Display: Building textures: T_Hall_Ceiling_Sec_A_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.10:173][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.10:173][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.10:173][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.10:173][744]LogTexture: Display: Building textures: T_Hall_Ceiling_Sec_A_Diff (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.10:173][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.10:173][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.10:173][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.10:173][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.10:173][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.10:173][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.10:173][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.10:173][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.10:173][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.10:173][744]LogStaticMesh: Building static mesh SM_Hall_Ceiling_Sec_B...
+[2022.09.24-17.33.10:190][744]LogTexture: Display: Building textures: T_UI_Details_c (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.10:205][744]LogStaticMesh: Built static mesh [0.03s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Hall_Ceiling_Sec_B.SM_Hall_Ceiling_Sec_B
+[2022.09.24-17.33.10:768][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.10:768][744]LogTexture: Display: Building textures: T_Datapad_UI (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.10:768][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.10:768][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.10:768][744]LogTexture: Display: Building textures: T_UI_Details (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.10:768][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.10:768][744]LogTexture: Display: Building textures: T_Datapad_N_normals (OODLE_BC5, 2048X2048)
+[2022.09.24-17.33.10:768][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.10:768][744]LogTexture: Display: Building textures: T_Datapad_M (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.10:768][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.10:768][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.10:768][744]LogStaticMesh: Building static mesh SM_Hall_Ceiling_Sec_A...
+[2022.09.24-17.33.10:805][744]LogStaticMesh: Built static mesh [0.04s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Hall_Ceiling_Sec_A.SM_Hall_Ceiling_Sec_A
+[2022.09.24-17.33.10:855][744]LogTexture: Display: Building textures: T_Datapad_Diff (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.10:855][744]LogStaticMesh: Building static mesh SM_Floor_Wire_B...
+[2022.09.24-17.33.10:917][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.10:917][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.10:917][744]LogStaticMesh: Built static mesh [0.06s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Floor_Wire_B.SM_Floor_Wire_B
+[2022.09.24-17.33.10:984][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.10:984][744]LogMaterial: Display: Missing cached shadermap for M_GlassLight in PCD3D_SM5, Default, SM5 (DDC key hash: 911677293EFCC0A08F33051BB4DF154D7070BEB7), compiling. 
+[2022.09.24-17.33.11:458][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.11:458][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.11:459][744]LogShaderCompilers: Display: Submitted 48 shader compile jobs with 'Low' priority
+[2022.09.24-17.33.11:482][744]LogStaticMesh: Building static mesh SM_DoorwayGlass...
+[2022.09.24-17.33.11:510][744]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 48
+[2022.09.24-17.33.11:510][744]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 38
+[2022.09.24-17.33.11:510][744]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
+[2022.09.24-17.33.11:510][744]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2022.09.24-17.33.11:510][744]LogShaderCompilers: Display: Started 40 'Local' shader compile jobs with 'Low' priority
+[2022.09.24-17.33.11:510][744]LogStaticMesh: Built static mesh [0.03s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_DoorwayGlass.SM_DoorwayGlass
+[2022.09.24-17.33.11:543][744]LogStaticMesh: Building static mesh SM_Camera_A...
+[2022.09.24-17.33.11:600][744]LogStaticMesh: Built static mesh [0.06s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Camera_A.SM_Camera_A
+[2022.09.24-17.33.11:649][744]LogStaticMesh: Building static mesh SM_Datapad...
+[2022.09.24-17.33.11:675][744]LogStaticMesh: Built static mesh [0.03s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Datapad.SM_Datapad
+[2022.09.24-17.33.12:026][744]LogMaterial: Display: Missing cached shadermap for M_UI_Parent in PCD3D_SM5, Default, SM5 (DDC key hash: 6642EF8B838C5BD999CDB993155BA9B9DBCEBCA3), compiling. 
+[2022.09.24-17.33.12:047][744]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Low' priority
+[2022.09.24-17.33.12:143][744]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 256X256)
+[2022.09.24-17.33.12:143][744]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 256X256)
+[2022.09.24-17.33.12:143][744]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 256X256)
+[2022.09.24-17.33.12:143][744]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 256X256)
+[2022.09.24-17.33.12:143][744]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 64X128)
+[2022.09.24-17.33.12:144][744]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X16)
+[2022.09.24-17.33.12:152][744]LogMaterial: Display: Missing cached shadermap for M_SolidColor_Base in PCD3D_SM5, Default, SM5 (DDC key hash: E4941D1685A1FDF5014404F06781813417F07175), compiling. 
+[2022.09.24-17.33.12:191][744]LogShaderCompilers: Display: Submitted 25 shader compile jobs with 'Low' priority
+[2022.09.24-17.33.12:292][744]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 256X256)
+[2022.09.24-17.33.12:292][744]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 256X256)
+[2022.09.24-17.33.12:292][744]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 256X256)
+[2022.09.24-17.33.12:292][744]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 256X256)
+[2022.09.24-17.33.12:292][744]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 64X128)
+[2022.09.24-17.33.12:292][744]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X16)
+[2022.09.24-17.33.12:487][744]LogTexture: Display: Building textures: T_Dust_Particle_D (OODLE_AutoDXT, 128X128)
+[2022.09.24-17.33.12:487][744]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 256X256)
+[2022.09.24-17.33.12:487][744]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 256X256)
+[2022.09.24-17.33.12:487][744]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 256X256)
+[2022.09.24-17.33.12:487][744]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 256X256)
+[2022.09.24-17.33.12:487][744]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 64X128)
+[2022.09.24-17.33.12:487][744]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X16)
+[2022.09.24-17.33.13:860][744]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 256X256)
+[2022.09.24-17.33.13:860][744]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 256X256)
+[2022.09.24-17.33.13:860][744]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 256X256)
+[2022.09.24-17.33.13:860][744]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 256X256)
+[2022.09.24-17.33.13:860][744]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 64X128)
+[2022.09.24-17.33.13:860][744]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X16)
+[2022.09.24-17.33.13:860][744]LogTexture: Display: Building textures: T_Hall_Win_Det_A_M (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.13:860][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.13:860][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.13:860][744]LogTexture: Display: Building textures: T_Hall_Win_Det_A_N_normals (OODLE_BC5, 4096X4096)
+[2022.09.24-17.33.13:860][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.13:861][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.13:861][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.13:861][744]LogTexture: Display: Building textures: T_Hall_Win_Det_A_Diff (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.13:861][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.13:861][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.13:861][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.13:861][744]LogStaticMesh: Building static mesh SM_Hall_Win_Det_A...
+[2022.09.24-17.33.13:895][744]LogStaticMesh: Built static mesh [0.04s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Hall_Win_Det_A.SM_Hall_Win_Det_A
+[2022.09.24-17.33.14:074][744]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 256X256)
+[2022.09.24-17.33.14:074][744]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 256X256)
+[2022.09.24-17.33.14:074][744]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 256X256)
+[2022.09.24-17.33.14:074][744]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 256X256)
+[2022.09.24-17.33.14:074][744]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X16)
+[2022.09.24-17.33.14:185][744]LogTexture: Display: Building textures: T_CustomerMessage (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.14:185][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.14:186][744]LogMaterial: Display: Missing cached shadermap for M_CustomerMessage in PCD3D_SM5, Default, SM5 (DDC key hash: C4056CB2FAE8A2DB0815E49066BBA501A907B5EE), compiling. 
+[2022.09.24-17.33.14:210][744]LogShaderCompilers: Display: Submitted 25 shader compile jobs with 'Low' priority
+[2022.09.24-17.33.14:213][744]LogStaticMesh: Building static mesh SM_CustomerMessage...
+[2022.09.24-17.33.14:234][744]LogStaticMesh: Built static mesh [0.02s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_CustomerMessage.SM_CustomerMessage
+[2022.09.24-17.33.14:786][744]LogTexture: Display: Building textures: T_Metal_Scratches_N (OODLE_BC5, 2048X2048)
+[2022.09.24-17.33.14:786][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.14:786][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.27:972][744]LogTexture: Display: Building textures: T_Arrow_A_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:972][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:972][744]LogTexture: Display: Building textures: T_Arrow_C_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:972][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:972][744]LogTexture: Display: Building textures: T_Arrow_D_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:972][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:972][744]LogTexture: Display: Building textures: T_Arrow_E_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:972][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:972][744]LogTexture: Display: Building textures: T_Corner_B_Scr_OM (OODLE_AutoDXT, 512X512)
+[2022.09.24-17.33.27:972][744]LogTexture: Display: Building textures: T_Circle_A_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:972][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:972][744]LogTexture: Display: Building textures: T_Circle_B_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTexture: Display: Building textures: T_Circle_C_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTexture: Display: Building textures: T_Pill_Scr_OM (OODLE_AutoDXT, 512X512)
+[2022.09.24-17.33.27:973][744]LogTexture: Display: Building textures: T_Rectangle_A_Scr_OM (OODLE_AutoDXT, 2048X1024)
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTexture: Display: Building textures: T_Rectangle_B_Scr_OM (OODLE_AutoDXT, 2048X1024)
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTexture: Display: Building textures: T_Rectangle_C_Scr_OM (OODLE_AutoDXT, 1024X512)
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTexture: Display: Building textures: T_Square_B_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTexture: Display: Building textures: T_Stripe_B_Scr_OM (OODLE_AutoDXT, 2048X1024)
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTexture: Display: Building textures: T_Stripe_C_Scr_OM (OODLE_AutoDXT, 2048X1024)
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTexture: Display: Building textures: T_Stripe_D_Cnr_Scr_OM (OODLE_AutoDXT, 2048X1024)
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTexture: Display: Building textures: T_Stripe_D_Scr_OM (OODLE_AutoDXT, 2048X1024)
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTexture: Display: Building textures: T_Stripe_F_Cnr_Scr_OM (OODLE_AutoDXT, 2048X1024)
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.27:973][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTexture: Display: Building textures: T_Stripe_G_Scr_OM (OODLE_AutoDXT, 2048X1024)
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTexture: Display: Building textures: T_Stripe_I_Scr_OM (OODLE_AutoDXT, 2048X1024)
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTexture: Display: Building textures: T_Ceiling_A_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTexture: Display: Building textures: T_Ceiling_B_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTexture: Display: Building textures: T_Wall_B_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTexture: Display: Building textures: T_Wall_C_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTexture: Display: Building textures: T_Wall_D_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTexture: Display: Building textures: T_Arrow_F_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTexture: Display: Building textures: T_FloorSquare_Caution_Scr (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTexture: Display: Building textures: T_FloorSquare_Elevator_Scr (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTexture: Display: Building textures: T_FloorSquare_Hangar_Scr (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTexture: Display: Building textures: T_FloorSquare_Lab_Scr (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTexture: Display: Building textures: T_FloorSquare_Offices_Scr (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTexture: Display: Building textures: T_Circle_EF_M (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:974][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:974][744]LogTexture: Display: Building textures: T_Square_0_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Square_1_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Square_2_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Square_3_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Square_4_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Square_5_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Square_6_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Square_7_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Square_8_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Square_9_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Square_A_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Square_B_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Square_C_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Square_D_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Square_E_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Text_0_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Text_1_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Text_2_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Text_3_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Text_6_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Text_7_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:975][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:975][744]LogTexture: Display: Building textures: T_Text_8_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Text_9_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Text_B_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Text_C_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Text_Dash_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Text_E_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Arrivals_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Assembly_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Bay_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Block_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Blue_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Bridge_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Cargo_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Caution_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Cell_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Center_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Central_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Command_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Control_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Core_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Corridor_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:976][744]LogTexture: Display: Building textures: T_Danger_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:976][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Deck_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Departures_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Detention_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_District_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Dock_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Elevators_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Exit_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Laboratory_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Lab_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Landing_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Lift_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Maintenance_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Medical_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Observation_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Observatory_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Office_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Processing_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Quarters_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Reactor_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Red_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Security_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:977][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:977][744]LogTexture: Display: Building textures: T_Shaft_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:978][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:978][744]LogTexture: Display: Building textures: T_StandClear_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:978][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:978][744]LogTexture: Display: Building textures: T_Station_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:978][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:978][744]LogTexture: Display: Building textures: T_Storage_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:978][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:978][744]LogTexture: Display: Building textures: T_Supplies_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:978][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:978][744]LogTexture: Display: Building textures: T_Team_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:978][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:978][744]LogTexture: Display: Building textures: T_Zone_Scr_OM (OODLE_AutoDXT, 1024X256)
+[2022.09.24-17.33.27:978][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 256 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.27:978][744]LogTexture: Display: Building textures: T_MedBottle_b_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.27:978][744]LogStaticMesh: Building static mesh SM_WallCab_1D_Op...
+[2022.09.24-17.33.28:119][744]LogTexture: Display: Building textures: T_TableLamp_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.28:119][744]LogTexture: Display: Building textures: T_MedBottle_b_N_normals (OODLE_BC5, 4096X4096)
+[2022.09.24-17.33.28:119][744]LogStaticMesh: Built static mesh [0.15s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_WallCab_1D_Op.SM_WallCab_1D_Op
+[2022.09.24-17.33.34:468][744]LogTexture: Display: Building textures: T_TableLamp_N_normals (OODLE_BC5, 4096X4096)
+[2022.09.24-17.33.34:468][744]LogTexture: Display: Building textures: T_TableLamp_Diff (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.34:468][744]LogTexture: Display: Building textures: T_MedBottle_b_Diff (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.34:468][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:468][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.34:468][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:468][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.34:468][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.34:468][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:468][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:468][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:468][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:468][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTexture: Display: Building textures: T_MedBottle_N_normals (OODLE_BC5, 4096X4096)
+[2022.09.24-17.33.34:469][744]LogTexture: Display: Building textures: T_MedBottle_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.34:469][744]LogTexture: Display: Building textures: T_GlassDisplay (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.34:469][744]LogTexture: Display: Building textures: T_MedBottle_Diff (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.34:469][744]LogStaticMesh: Building static mesh SM_TableLamp...
+[2022.09.24-17.33.34:559][744]LogStaticMesh: Built static mesh [0.09s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_TableLamp.SM_TableLamp
+[2022.09.24-17.33.34:577][744]LogStaticMesh: Building static mesh SM_SingleDrawer...
+[2022.09.24-17.33.34:612][744]LogTexture: Display: Building textures: T_GlassDivider_N_normals (OODLE_BC5, 4096X4096)
+[2022.09.24-17.33.34:612][744]LogStaticMesh: Built static mesh [0.04s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_SingleDrawer.SM_SingleDrawer
+[2022.09.24-17.33.34:653][744]LogStaticMesh: Building static mesh SM_Shelf_A_v1...
+[2022.09.24-17.33.34:716][744]LogTexture: Display: Building textures: T_GlassDivider_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.34:758][744]LogStaticMesh: Built static mesh [0.10s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_Shelf_A_v1.SM_Shelf_A_v1
+[2022.09.24-17.33.35:829][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.35:830][744]LogTexture: Display: Building textures: T_GlassDivider_Diff (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.35:830][744]LogTexture: Display: Building textures: T_FirstAidKit_N_normals (OODLE_BC5, 1024X1024)
+[2022.09.24-17.33.35:830][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.35:830][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.35:830][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.35:830][744]LogTexture: Display: Building textures: T_FirstAidKit_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.35:830][744]LogStaticMesh: Building static mesh SM_MedBottle_b...
+[2022.09.24-17.33.35:880][744]LogStaticMesh: Built static mesh [0.05s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_MedBottle_b.SM_MedBottle_b
+[2022.09.24-17.33.36:455][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.36:455][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.36:455][744]LogStaticMesh: Building static mesh SM_MedBottle...
+[2022.09.24-17.33.36:491][744]LogStaticMesh: Built static mesh [0.04s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_MedBottle.SM_MedBottle
+[2022.09.24-17.33.36:547][744]LogStaticMesh: Building static mesh SM_HScanner_Open...
+[2022.09.24-17.33.36:554][744]LogTexture: Display: Building textures: T_FirstAidKit_Diff (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.36:717][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.36:717][744]LogTexture: Display: Building textures: T_Laptop_Desktop (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.36:717][744]LogStaticMesh: Built static mesh [0.17s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_HScanner_Open.SM_HScanner_Open
+[2022.09.24-17.33.36:734][744]LogMaterial: Display: Missing cached shadermap for M_Glass_Base2 in PCD3D_SM5, Default, SM5 (DDC key hash: F3D5F4764E5EDF7F9826FC51B711FA6E2EA0CEBC), compiling. 
+[2022.09.24-17.33.36:822][744]LogShaderCompilers: Display: Submitted 48 shader compile jobs with 'Low' priority
+[2022.09.24-17.33.39:921][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.39:921][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.39:921][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.39:921][744]LogTexture: Display: Building textures: T_Keypad_UI_Locked (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.39:921][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.39:921][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.39:921][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.39:921][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.39:921][744]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.39:921][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.39:921][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.39:921][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.39:921][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.39:921][744]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2022.09.24-17.33.39:921][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.39:921][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.39:921][744]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X64)
+[2022.09.24-17.33.39:921][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.39:921][744]LogStaticMesh: Building static mesh SM_GlassDivider...
+[2022.09.24-17.33.40:032][744]LogStaticMesh: Built static mesh [0.11s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_GlassDivider.SM_GlassDivider
+[2022.09.24-17.33.40:052][744]LogStaticMesh: Building static mesh SM_Floor_C...
+[2022.09.24-17.33.40:072][744]LogStaticMesh: Built static mesh [0.02s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_Floor_C.SM_Floor_C
+[2022.09.24-17.33.40:086][744]LogStaticMesh: Building static mesh SM_Floor_B...
+[2022.09.24-17.33.40:108][744]LogStaticMesh: Built static mesh [0.02s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_Floor_B.SM_Floor_B
+[2022.09.24-17.33.40:183][744]LogStaticMesh: Building static mesh SM_FirstAidKit...
+[2022.09.24-17.33.40:251][744]LogStaticMesh: Built static mesh [0.07s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_FirstAidKit.SM_FirstAidKit
+[2022.09.24-17.33.40:321][744]LogStaticMesh: Building static mesh SM_Desk_B_v1...
+[2022.09.24-17.33.40:417][744]LogStaticMesh: Built static mesh [0.10s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_Desk_B_v1.SM_Desk_B_v1
+[2022.09.24-17.33.40:471][744]LogStaticMesh: Building static mesh SM_Desk_A_v2...
+[2022.09.24-17.33.40:606][744]LogStaticMesh: Built static mesh [0.14s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_Desk_A_v2.SM_Desk_A_v2
+[2022.09.24-17.33.40:681][744]LogStaticMesh: Building static mesh SM_Desk_A_v1...
+[2022.09.24-17.33.41:074][744]LogStaticMesh: Built static mesh [0.39s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_Desk_A_v1.SM_Desk_A_v1
+[2022.09.24-17.33.41:136][744]LogStaticMesh: Building static mesh SM_CoasterStack...
+[2022.09.24-17.33.41:261][744]LogStaticMesh: Built static mesh [0.13s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_CoasterStack.SM_CoasterStack
+[2022.09.24-17.33.41:318][744]LogStaticMesh: Building static mesh SM_Cabinet_A...
+[2022.09.24-17.33.41:392][744]LogStaticMesh: Built static mesh [0.07s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_Cabinet_A.SM_Cabinet_A
+[2022.09.24-17.33.41:637][744]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X64)
+[2022.09.24-17.33.41:637][744]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2022.09.24-17.33.41:637][744]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.41:637][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.41:637][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.43:071][744]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X64)
+[2022.09.24-17.33.43:071][744]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2022.09.24-17.33.43:071][744]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.43:071][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.43:071][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.43:071][744]LogTexture: Display: Building textures: T_Laptop_Mail_Alt (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.43:071][744]LogTexture: Display: Building textures: T_Laptop_Desktop_Alt (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.43:071][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.43:071][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.43:265][744]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 256X256)
+[2022.09.24-17.33.43:265][744]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 256X256)
+[2022.09.24-17.33.43:265][744]LogStaticMesh: Building static mesh SM_AltFloor_B...
+[2022.09.24-17.33.43:293][744]LogStaticMesh: Built static mesh [0.03s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_AltFloor_B.SM_AltFloor_B
+[2022.09.24-17.33.43:300][744]LogStaticMesh: Building static mesh SM_AltFloor_A...
+[2022.09.24-17.33.43:323][744]LogStaticMesh: Built static mesh [0.02s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_AltFloor_A.SM_AltFloor_A
+[2022.09.24-17.33.43:455][744]LogStaticMesh: Building static mesh SM_Desk_A_v3...
+[2022.09.24-17.33.44:153][744]LogStaticMesh: Built static mesh [0.70s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_Desk_A_v3.SM_Desk_A_v3
+[2022.09.24-17.33.44:243][744]LogStaticMesh: Building static mesh SM_Desk_B_v3...
+[2022.09.24-17.33.44:351][744]LogStaticMesh: Built static mesh [0.11s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_Desk_B_v3.SM_Desk_B_v3
+[2022.09.24-17.33.44:396][744]LogStaticMesh: Building static mesh SM_Shelf_A_v2...
+[2022.09.24-17.33.44:444][744]LogStaticMesh: Built static mesh [0.05s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_Shelf_A_v2.SM_Shelf_A_v2
+[2022.09.24-17.33.44:477][744]LogStaticMesh: Building static mesh SM_Shelf_A_v4...
+[2022.09.24-17.33.44:533][744]LogStaticMesh: Built static mesh [0.06s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_Shelf_A_v4.SM_Shelf_A_v4
+[2022.09.24-17.33.44:603][744]LogStaticMesh: Building static mesh SM_WallCab_2D_Op...
+[2022.09.24-17.33.44:784][744]LogStaticMesh: Built static mesh [0.18s] /Game/StarterBundle/ModularScifiProps/Meshes/SM_WallCab_2D_Op.SM_WallCab_2D_Op
+[2022.09.24-17.33.44:990][744]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X64)
+[2022.09.24-17.33.44:990][744]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.44:991][744]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2022.09.24-17.33.44:991][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.44:991][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.45:172][744]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X64)
+[2022.09.24-17.33.45:172][744]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.45:172][744]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2022.09.24-17.33.45:172][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.45:172][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.46:302][744]LogTexture: Display: Building textures: T_Keypad_UI_Unlocked (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.46:302][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.46:302][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.46:302][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.46:302][744]LogMaterial: Display: Missing cached shadermap for M_FrostedGlass_Base in PCD3D_SM5, Default, SM5 (DDC key hash: 72B5D33C78299AA0C06CFD1F1CFB9677E9966666), compiling. 
+[2022.09.24-17.33.46:379][744]LogShaderCompilers: Display: Submitted 46 shader compile jobs with 'Low' priority
+[2022.09.24-17.33.46:411][744]LogStaticMesh: Building static mesh SM_Wall_Det_DoorBig_A...
+[2022.09.24-17.33.46:430][744]LogStaticMesh: Built static mesh [0.02s] /Game/StarterBundle/ModularSci_Comm/Meshes/SM_Wall_Det_DoorBig_A.SM_Wall_Det_DoorBig_A
+[2022.09.24-17.33.46:478][744]LogStaticMesh: Building static mesh SM_Wall_Det_DoorBig_G...
+[2022.09.24-17.33.46:517][744]LogStaticMesh: Built static mesh [0.04s] /Game/StarterBundle/ModularSci_Comm/Meshes/SM_Wall_Det_DoorBig_G.SM_Wall_Det_DoorBig_G
+[2022.09.24-17.33.46:535][744]LogStaticMesh: Building static mesh SM_Wall_Det_DoorSmall_A...
+[2022.09.24-17.33.46:549][744]LogStaticMesh: Built static mesh [0.01s] /Game/StarterBundle/ModularSci_Comm/Meshes/SM_Wall_Det_DoorSmall_A.SM_Wall_Det_DoorSmall_A
+[2022.09.24-17.33.46:565][744]LogStaticMesh: Building static mesh SM_Wall_Pipe_B...
+[2022.09.24-17.33.46:588][744]LogStaticMesh: Built static mesh [0.02s] /Game/StarterBundle/ModularSci_Comm/Meshes/SM_Wall_Pipe_B.SM_Wall_Pipe_B
+[2022.09.24-17.33.46:601][744]LogStaticMesh: Building static mesh SM_Wall_Pipe_D...
+[2022.09.24-17.33.46:621][744]LogStaticMesh: Built static mesh [0.02s] /Game/StarterBundle/ModularSci_Comm/Meshes/SM_Wall_Pipe_D.SM_Wall_Pipe_D
+[2022.09.24-17.33.46:634][744]LogStaticMesh: Building static mesh SM_Wall_Pipe_G...
+[2022.09.24-17.33.46:651][744]LogStaticMesh: Built static mesh [0.02s] /Game/StarterBundle/ModularSci_Comm/Meshes/SM_Wall_Pipe_G.SM_Wall_Pipe_G
+[2022.09.24-17.33.46:726][744]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/daylight.daylight', its maximum texture size has been explicitly set to 512.
+[2022.09.24-17.33.46:785][744]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 64X64)
+[2022.09.24-17.33.46:785][744]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 64X64)
+[2022.09.24-17.33.46:785][744]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 512X64)
+[2022.09.24-17.33.46:785][744]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 256X256)
+[2022.09.24-17.33.46:785][744]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 256X256)
+[2022.09.24-17.33.46:819][744]LogMaterial: Display: Missing cached shadermap for M_Base_4C_Scr in PCD3D_SM5, Default, SM5 (DDC key hash: 352C57780A31343174F3D398C0CCF6C6984A7B2F), compiling. 
+[2022.09.24-17.33.46:851][744]LogShaderCompilers: Display: Submitted 25 shader compile jobs with 'Low' priority
+[2022.09.24-17.33.50:522][744]LogTexture: Display: Building textures: T_Circle_C (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.50:523][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.50:523][744]LogTexture: Display: Building textures: T_Circle_F (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.50:523][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.50:523][744]LogTexture: Display: Building textures: T_Stripe_D_Scr_OM (OODLE_AutoDXT, 2048X1024)
+[2022.09.24-17.33.50:523][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.50:524][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.09.24-17.33.50:524][744]LogTexture: Display: Building textures: T_Text_D_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.50:524][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.50:524][744]LogTexture: Display: Building textures: T_Base_Brushed (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.50:524][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.50:524][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.50:524][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.50:524][744]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2022.09.24-17.33.50:524][744]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.09.24-17.33.50:524][744]LogTexture: Display: Building textures: T_Circle_C_Scr_OM (OODLE_AutoDXT, 1024X1024)
+[2022.09.24-17.33.50:524][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.50:611][744]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.24-17.33.50:611][744]LogShaderCompilers: Display: Total job queries 231, among them cache hits 0 (0.00%)
+[2022.09.24-17.33.50:611][744]LogShaderCompilers: Display: Tracking 10 distinct input hashes that result in 8 distinct outputs (80.00%)
+[2022.09.24-17.33.50:649][744]LogShaderCompilers: Display: RAM used: 0.09 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.09.24-17.33.50:649][744]LogShaderCompilers: Display: ================================================
+[2022.09.24-17.33.51:950][744]LogTexture: Display: Building textures: T_FloorPanel_B_M (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.51:950][744]LogTexture: Display: Building textures: T_FloorPanel_C_M (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.51:950][744]LogTexture: Display: Building textures: T_FloorPanel_B_Diff (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.51:950][744]LogTexture: Display: Building textures: T_FloorPanel_C_Diff (OODLE_AutoDXT, 2048X2048)
+[2022.09.24-17.33.51:950][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.51:950][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.51:950][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.51:950][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.51:950][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.51:950][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.51:950][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.51:951][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.51:951][744]LogStaticMesh: Building static mesh SM_FloorPanel_B...
+[2022.09.24-17.33.51:989][744]LogStaticMesh: Built static mesh [0.04s] /Game/StarterBundle/ModularSci_Int/Meshes/SM_FloorPanel_B.SM_FloorPanel_B
+[2022.09.24-17.33.52:067][744]LogStaticMesh: Building static mesh SM_Doorway_L_B2...
+[2022.09.24-17.33.52:188][744]LogStaticMesh: Built static mesh [0.12s] /Game/StarterBundle/ModularSci_Int/Meshes/SM_Doorway_L_B2.SM_Doorway_L_B2
+[2022.09.24-17.33.52:354][744]LogStaticMesh: Building static mesh SM_Ceiling_A_2...
+[2022.09.24-17.33.52:356][744]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2022.09.24-17.33.52:356][744]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.09.24-17.33.52:426][744]LogStaticMesh: Built static mesh [0.07s] /Game/StarterBundle/ModularSci_Int/Meshes/SM_Ceiling_A_2.SM_Ceiling_A_2
+[2022.09.24-17.33.52:454][744]LogStaticMesh: Building static mesh SM_FloorPanel_C...
+[2022.09.24-17.33.52:480][744]LogStaticMesh: Built static mesh [0.03s] /Game/StarterBundle/ModularSci_Int/Meshes/SM_FloorPanel_C.SM_FloorPanel_C
+[2022.09.24-17.33.52:517][744]LogStaticMesh: Building static mesh SM_Pipe_WinCeiling...
+[2022.09.24-17.33.52:585][744]LogStaticMesh: Built static mesh [0.07s] /Game/StarterBundle/ModularSci_Int/Meshes/SM_Pipe_WinCeiling.SM_Pipe_WinCeiling
+[2022.09.24-17.33.52:697][744]LogStaticMesh: Building static mesh SM_Win_Ceiling_B_2...
+[2022.09.24-17.33.52:774][744]LogStaticMesh: Built static mesh [0.08s] /Game/StarterBundle/ModularSci_Int/Meshes/SM_Win_Ceiling_B_2.SM_Win_Ceiling_B_2
+[2022.09.24-17.33.52:856][744]LogStaticMesh: Building static mesh SM_Win_Post_A_2...
+[2022.09.24-17.33.52:984][744]LogStaticMesh: Built static mesh [0.13s] /Game/StarterBundle/ModularSci_Int/Meshes/SM_Win_Post_A_2.SM_Win_Post_A_2
+[2022.09.24-17.33.58:201][744]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2022.09.24-17.33.58:201][744]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.09.24-17.33.58:201][744]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 64X64)
+[2022.09.24-17.33.58:201][744]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 64X64)
+[2022.09.24-17.33.58:201][744]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 512X512)
+[2022.09.24-17.33.58:201][744]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X32)
+[2022.09.24-17.33.58:201][744]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 512X512)
+[2022.09.24-17.33.58:201][744]LogTexture: Display: Building textures: T_Ceiling_C_1_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.58:201][744]LogTexture: Display: Building textures: T_Ceiling_C_1_N_normals (OODLE_BC5, 4096X4096)
+[2022.09.24-17.33.58:201][744]LogTexture: Display: Building textures: T_Ceiling_C_2_N_normals (OODLE_BC5, 4096X4096)
+[2022.09.24-17.33.58:201][744]LogTexture: Display: Building textures: T_Ceiling_C_2_M (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.58:201][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.58:201][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.58:201][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.58:201][744]LogTexture: Display: Building textures: T_Ceiling_C_1_Diff (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.58:201][744]LogTexture: Display: Building textures: T_Ceiling_C_2_Diff (OODLE_AutoDXT, 4096X4096)
+[2022.09.24-17.33.58:201][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.58:202][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.58:202][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.58:202][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.58:202][744]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.58:202][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.58:202][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.58:202][744]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2022.09.24-17.33.58:202][744]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.09.24-17.33.58:202][744]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2022.09.24-17.33.58:202][744]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.09.24-17.33.58:202][744]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 39
+[2022.09.24-17.33.58:202][744]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.09.24-17.33.58:202][744]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2022.09.24-17.33.58:202][744]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.09.24-17.33.58:202][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.58:202][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.58:202][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.58:202][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.58:202][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.09.24-17.33.58:202][744]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.58:202][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.58:203][744]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.09.24-17.33.58:203][744]LogShaderCompilers: Error: ShaderCompileWorker terminated unexpectedly!  Falling back to directly compiling which will be very slow.  Thread 0.
+[2022.09.24-17.33.58:203][744]LogShaderCompilers: Error: SCW 10 Queued Jobs, Unknown number of processed jobs!
+[2022.09.24-17.33.58:203][744]LogShaderCompilers: Error: Job 0 [Single] M_GlassLight/FLocalVertexFactory/TBasePassVSFCachedPointIndirectLightingPolicyAtmosphericFog/0:/Engine/Private/BasePassVertexShader.usf VF 'FLocalVertexFactory' Type 'TBasePassVSFCachedPointIndirectLightingPolicyAtmosphericFog' '/Engine/Private/BasePassVertexShader.usf' Entry 'Main' Permutation 0 
+[2022.09.24-17.33.58:203][744]LogShaderCompilers: Error: Job 1 [Single] M_GlassLight/FLocalVertexFactory/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf VF 'FLocalVertexFactory' Type 'TBasePassVSFNoLightMapPolicy' '/Engine/Private/BasePassVertexShader.usf' Entry 'Main' Permutation 0 
+[2022.09.24-17.33.58:203][744]LogShaderCompilers: Error: Job 2 [Single] M_GlassLight/FLocalVertexFactory/TBasePassVSFSelfShadowedTranslucencyPolicy/0:/Engine/Private/BasePassVertexShader.usf VF 'FLocalVertexFactory' Type 'TBasePassVSFSelfShadowedTranslucencyPolicy' '/Engine/Private/BasePassVertexShader.usf' Entry 'Main' Permutation 0 
+[2022.09.24-17.33.58:203][744]LogShaderCompilers: Error: Job 3 [Single] M_GlassLight/FLocalVertexFactory/TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy/0:/Engine/Private/BasePassPixelShader.usf VF 'FLocalVertexFactory' Type 'TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy' '/Engine/Private/BasePassPixelShader.usf' Entry 'MainPS' Permutation 0 
+[2022.09.24-17.33.58:203][744]LogShaderCompilers: Error: Job 4 [Single] M_GlassLight/FLocalVertexFactory/FDebugViewModeVS/0:/Engine/Private/DebugViewModeVertexShader.usf VF 'FLocalVertexFactory' Type 'FDebugViewModeVS' '/Engine/Private/DebugViewModeVertexShader.usf' Entry 'Main' Permutation 0 
+[2022.09.24-17.33.58:203][744]LogShaderCompilers: Error: Job 5 [Single] M_GlassLight/FLocalVertexFactory/TBasePassPSTLightMapPolicyHQSkylight/0:/Engine/Private/BasePassPixelShader.usf VF 'FLocalVertexFactory' Type 'TBasePassPSTLightMapPolicyHQSkylight' '/Engine/Private/BasePassPixelShader.usf' Entry 'MainPS' Permutation 0 
+[2022.09.24-17.33.58:203][744]LogShaderCompilers: Error: Job 6 [Single] M_GlassLight/FLocalVertexFactory/TBasePassVSTLightMapPolicyLQ/0:/Engine/Private/BasePassVertexShader.usf VF 'FLocalVertexFactory' Type 'TBasePassVSTLightMapPolicyLQ' '/Engine/Private/BasePassVertexShader.usf' Entry 'Main' Permutation 0 
+[2022.09.24-17.33.58:203][744]LogShaderCompilers: Error: Job 7 [Single] M_GlassLight/FLocalVertexFactory/TBasePassPSTLightMapPolicyLQ/0:/Engine/Private/BasePassPixelShader.usf VF 'FLocalVertexFactory' Type 'TBasePassPSTLightMapPolicyLQ' '/Engine/Private/BasePassPixelShader.usf' Entry 'MainPS' Permutation 0 
+[2022.09.24-17.33.58:203][744]LogShaderCompilers: Error: Job 8 [Single] M_GlassLight/FLocalVertexFactory/TBasePassPSFSelfShadowedTranslucencyPolicySkylight/0:/Engine/Private/BasePassPixelShader.usf VF 'FLocalVertexFactory' Type 'TBasePassPSFSelfShadowedTranslucencyPolicySkylight' '/Engine/Private/BasePassPixelShader.usf' Entry 'MainPS' Permutation 0 
+[2022.09.24-17.33.58:203][744]LogShaderCompilers: Error: Job 9 [Single] M_GlassLight/FLocalVertexFactory/TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy/0:/Engine/Private/BasePassVertexShader.usf VF 'FLocalVertexFactory' Type 'TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy' '/Engine/Private/BasePassVertexShader.usf' Entry 'Main' Permutation 0 
+[2022.09.24-17.33.58:853][744]LogStaticMesh: Building static mesh SM_Ceiling_C...
+[2022.09.24-17.33.58:952][744]LogStaticMesh: Built static mesh [0.10s] /Game/StarterBundle/ModularSci_Int/Meshes/SM_Ceiling_C.SM_Ceiling_C
