@@ -1,0 +1,3 @@
+B:\Projects\CPS353-01-Moon-Game\LunarEscape\Intermediate\Build\Win64\UE4Editor\Development\LunarEscape\Definitions.LunarEscape.h
+B:\Projects\CPS353-01-Moon-Game\LunarEscape\Source\LunarEscape\testActor.h
+B:\Projects\CPS353-01-Moon-Game\LunarEscape\Intermediate\Build\Win64\UE4Editor\Inc\LunarEscape\testActor.generated.h
