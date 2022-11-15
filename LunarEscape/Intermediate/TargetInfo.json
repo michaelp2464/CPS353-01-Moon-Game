@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "LunarEscape",
+			"Path": "B:\\Projects\\CPS353-01-Moon-Game\\LunarEscape\\Source\\LunarEscape.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "LunarEscapeEditor",
+			"Path": "B:\\Projects\\CPS353-01-Moon-Game\\LunarEscape\\Source\\LunarEscapeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

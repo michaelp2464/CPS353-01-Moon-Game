@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\LunarEscape.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{383AAC99-31FC-4AC5-B156-57AC651E3A92}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LunarEscape.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LunarEscapeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\East_Missile_Kh29T.png" />
+    <None Include="..\..\PhotoR_Backgrounds.png" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{DA41397D-1EFC-4906-A323-14AE65D1AED8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\LunarEscape">
+      <UniqueIdentifier>{21A007A3-F141-4DA4-847E-7E26DE663930}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LunarEscape\CPP_ThirdPersonCharacter.cpp">
+      <Filter>Source\LunarEscape</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LunarEscape\CPP_ThirdPersonCharacter.h">
+      <Filter>Source\LunarEscape</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\LunarEscape\LunarEscape.Build.cs">
+      <Filter>Source\LunarEscape</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LunarEscape\LunarEscape.cpp">
+      <Filter>Source\LunarEscape</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LunarEscape\LunarEscape.h">
+      <Filter>Source\LunarEscape</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LunarEscape\testActor.cpp">
+      <Filter>Source\LunarEscape</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LunarEscape\testActor.h">
+      <Filter>Source\LunarEscape</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

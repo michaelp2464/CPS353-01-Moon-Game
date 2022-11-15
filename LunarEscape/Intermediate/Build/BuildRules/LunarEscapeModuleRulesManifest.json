@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"B:\\Projects\\CPS353-01-Moon-Game\\LunarEscape\\Source\\LunarEscape\\LunarEscape.Build.cs",
+		"B:\\Projects\\CPS353-01-Moon-Game\\LunarEscape\\Source\\LunarEscape.Target.cs",
+		"B:\\Projects\\CPS353-01-Moon-Game\\LunarEscape\\Source\\LunarEscapeEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

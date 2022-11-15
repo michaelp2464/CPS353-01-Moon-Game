@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-LunarEscape-7911.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"B:\Projects\CPS353-01-Moon-Game\LunarEscape\Intermediate\Build\Win64\LunarEscapeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"B:\Projects\CPS353-01-Moon-Game\LunarEscape\Intermediate\Build\Win64\UE4Editor\Development\LunarEscape\CPP_ThirdPersonCharacter.cpp.obj"
+"B:\Projects\CPS353-01-Moon-Game\LunarEscape\Intermediate\Build\Win64\UE4Editor\Development\LunarEscape\LunarEscape.cpp.obj"
+"B:\Projects\CPS353-01-Moon-Game\LunarEscape\Intermediate\Build\Win64\UE4Editor\Development\LunarEscape\testActor.cpp.obj"
+"B:\Projects\CPS353-01-Moon-Game\LunarEscape\Intermediate\Build\Win64\UE4Editor\Development\LunarEscape\CPP_ThirdPersonCharacter.gen.cpp.obj"
+"B:\Projects\CPS353-01-Moon-Game\LunarEscape\Intermediate\Build\Win64\UE4Editor\Development\LunarEscape\LunarEscape.init.gen.cpp.obj"
+"B:\Projects\CPS353-01-Moon-Game\LunarEscape\Intermediate\Build\Win64\UE4Editor\Development\LunarEscape\testActor.gen.cpp.obj"
+"B:\Projects\CPS353-01-Moon-Game\LunarEscape\Intermediate\Build\Win64\UE4Editor\Development\LunarEscape\Default.rc2.res"
+/OUT:"B:\Projects\CPS353-01-Moon-Game\LunarEscape\Intermediate\Build\Win64\UE4Editor\Development\LunarEscape\UE4Editor-LunarEscape-7911.lib"
