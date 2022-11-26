@@ -1,120 +1,94 @@
 window.addEventListener("DOMContentLoaded", function (event) {
-  window.focus(); // Capture keys right away (by default focus is on editor)
+  //Allow the user input to be focused into the game without needing to click on it
+  window.focus(); 
 
-  // Game data
-  let snakePositions; // An array of snake positions, starting head first
-
-  let startTimestamp; // The starting timestamp of the animation
-  let lastTimestamp; // The previous timestamp of the animation
-  let stepsTaken; // How many steps did the snake take
-  let score;
-  let contrast;
-
-  let inputs; // A list of directions the snake still has to take in order
-
-  let gameStarted = false;
+  let linePositions; //tracks which tiles the line is currently occupying, with the last value being the head
+  let startTimestamp; //tracks when the game started
+  let stepsTaken; //tracks how many steps have taken
+  let inputs; //tracks what inputs the player has pressed that need to be fulfilled using an array
+  let gameStarted = false; //tracks if the game has started or not
 
   // Configuration
-  const width = 95; // Grid width
-  const height = 45; // Grid height
+  const speed = 55; //how long it takes for a tile to be filled
+  const width = 103; //width of each tile
+  const height = 55; //height of each tile
+  const color = "black"; //color of the tile
 
-  const speed = 50; // Milliseconds it takes for the snake to take a step in the grid
-  const color = "black"; // Primary color
-
-  // Setup: Build up the grid
-  // The grid consists of (width x height) tiles
-  // The tiles take the the shape of a grid using CSS grid
-  // The tile can represent a part of the snake or an apple
-  // Each tile has a content div that takes an absolute position
-  // The content can fill the tile or slide in or out from any direction to take the shape of a transitioning snake head or tail
+  //Create a reference to grid
   const grid = document.querySelector(".grid");
+  //Set up the grid with hierarchy: Grid -> Tile -> Content
   for (let i = 0; i < width * height; i++) {
     const content = document.createElement("div");
     content.setAttribute("class", "content");
-    content.setAttribute("id", i); // Just for debugging, not used
-
     const tile = document.createElement("div");
     tile.setAttribute("class", "tile");
     tile.appendChild(content);
-
     grid.appendChild(tile);
   }
 
+  //Create a reference to all of the tiles that we created using an array
   const tiles = document.querySelectorAll(".grid .tile .content");
 
-  const containerElement = document.querySelector(".container");
   const noteElement = document.querySelector("footer");
-
-  // Initialize layout
   resetGame();
 
-  // Resets game variables and layouts but does not start the game (game starts on keypress)
+  /*
+    resetGame() resets everything to its default values
+  */
   function resetGame() {
-    // Reset positions
-    snakePositions = [400, 401, 402, 403, 404];
+    linePositions = [5150, 5151, 5152, 5153, 5154];
 
     // Reset game progress
     startTimestamp = undefined;
-    lastTimestamp = undefined;
-    stepsTaken = -1; // It's -1 because then the snake will start with a step
-    score = 0;
-    contrast = 1;
-
-    // Reset inputs
+    stepsTaken = 0;
     inputs = [];
 
-    // Reset tiles
-    for (const tile of tiles) setTile(tile);
+    //reset all the tiles in the array tiles
+    for (const tile of tiles) setTile(tile); 
 
-    // Render snake
-    // Ignore the last part (the snake just moved out from it)
-    for (const i of snakePositions.slice(1)) {
-      const snakePart = tiles[i];
-      snakePart.style.backgroundColor = color;
+    // Render lines when the webpage is loaded
+    for (const i of linePositions.slice(1)) {
+      const linePart = tiles[i];
+      linePart.style.backgroundColor = color;
 
       // Set up transition directions for head and tail
-      if (i == snakePositions[snakePositions.length - 1])
-        snakePart.style.left = 0;
-      if (i == snakePositions[0]) snakePart.style.right = 0;
+      if (i == linePositions[linePositions.length - 1])
+        linePart.style.left = 0;
+      if (i == linePositions[0]) linePart.style.right = 0;
     }
   }
 
-  // Handle user inputs (e.g. start the game)
+  function startGame() {
+    gameStarted = true;
+    window.requestAnimationFrame(main);
+  }
+
   window.addEventListener("keydown", function (event) {
-    // If not an arrow key or space or H was pressed then return
-    if (
-      ![
-        "ArrowLeft",
-        "ArrowUp",
-        "ArrowRight",
-        "ArrowDown",
-        " "
-      ].includes(event.key)
-    )
+    //if any of the target keys were pressed, this branch should allow entry to the rest of the eventListener
+    if (!["ArrowLeft", "ArrowUp", "ArrowRight", "ArrowDown", " "].includes(event.key)) 
       return;
 
-    // If an arrow key was pressed then first prevent default
+    //stop all default browser functions 
     event.preventDefault();
-
-    // If space was pressed restart the game
+    
+    //configures the spacebar to be our reset key
     if (event.key == " ") {
       resetGame();
       startGame();
       return;
     }
 
-    // If an arrow key was pressed add the direction to the next moves
-    // Do not allow to add the same direction twice consecutively
-    // The snake can't do a full turn either
-    // Also start the game if it hasn't started yet
+    /*
+      Deny the user to move in the same direction it is currently moving
+      Deny the user to move in the complete opposite direction it is currently moving
+    */
+
     if (
       event.key == "ArrowLeft" &&
       inputs[inputs.length - 1] != "left" &&
       headDirection() != "right"
     ) {
       inputs.push("left");
-      if (!gameStarted) startGame();
-      return;
     }
     if (
       event.key == "ArrowUp" &&
@@ -122,8 +96,6 @@ window.addEventListener("DOMContentLoaded", function (event) {
       headDirection() != "down"
     ) {
       inputs.push("up");
-      if (!gameStarted) startGame();
-      return;
     }
     if (
       event.key == "ArrowRight" &&
@@ -131,8 +103,6 @@ window.addEventListener("DOMContentLoaded", function (event) {
       headDirection() != "left"
     ) {
       inputs.push("right");
-      if (!gameStarted) startGame();
-      return;
     }
     if (
       event.key == "ArrowDown" &&
@@ -140,22 +110,10 @@ window.addEventListener("DOMContentLoaded", function (event) {
       headDirection() != "up"
     ) {
       inputs.push("down");
-      if (!gameStarted) startGame();
-      return;
+
     }
   });
 
-  // Start the game
-  function startGame() {
-    gameStarted = true;
-    noteElement.style.opacity = 0;
-    window.requestAnimationFrame(main);
-  }
-
-  // The main game loop
-  // This function gets invoked approximately 60 times per second to render the game
-  // It keeps track of the total elapsed time and time elapsed since last call
-  // Based on that animates the snake either by transitioning it in between tiles or stepping it to the next tile
   function main(timestamp) {
     try {
       if (startTimestamp === undefined) startTimestamp = timestamp;
@@ -164,7 +122,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
       const stepsShouldHaveTaken = Math.floor(totalElapsedTime / speed);
       const percentageOfStep = (totalElapsedTime % speed) / speed;
 
-      // If the snake took a step from a tile to another one
+      // if stepsTaken != stepsShouldHaveTaken, it means that a certain % of the step has already been taken
       if (stepsTaken != stepsShouldHaveTaken) {
         stepAndTransition(percentageOfStep);  
         stepsTaken++;
@@ -173,42 +131,22 @@ window.addEventListener("DOMContentLoaded", function (event) {
       }
       window.requestAnimationFrame(main);
     } catch (error) {
-      // Write a note about restarting game and setting difficulty
       noteElement.innerHTML = `${error.message}`;
-      noteElement.style.opacity = 1;
-      containerElement.style.opacity = 1;
     }
-
-    lastTimestamp = timestamp;
   }
 
-  // Moves the snake and sets up tiles for the transition function so the transition function will be more effective (the transition function gets called more frequently)
   function stepAndTransition(percentageOfStep) {
     // Calculate the next position and add it to the snake
     const newHeadPosition = getNextPosition();
     console.log(`Snake stepping into tile ${newHeadPosition}`);
-    snakePositions.push(newHeadPosition);
+    linePositions.push(newHeadPosition);
 
-    // Start with tail instead of head
-    // Because the head might step into the previous position of the tail
-
-    // Clear tile, yet keep it in the array if the snake grows.
-    // Whenever the snake steps into a new tile, it will leave the last one.
-    // Yet the last tile stays in the array if the snake just grows.
-    // As a sideeffect in case the snake just eats an apple,
-    // the tail transitioning will happen on a this "hidden" tile
-    // (so the tail appears as stationary).
-    const previousTail = tiles[snakePositions[0]];
+    const previousTail = tiles[linePositions[0]];
     setTile(previousTail);
 
-
-
-    // Set previous head to full size
-    const previousHead = tiles[snakePositions[snakePositions.length - 2]];
+    const previousHead = tiles[linePositions[linePositions.length - 2]];
     setTile(previousHead, { "background-color": color });
 
-    // Set up and start transitioning for new head
-    // Make sure it heads to the right direction and set initial size
     const head = tiles[newHeadPosition];
     const headDi = headDirection();
     const headValue = `${percentageOfStep * 100}%`;
@@ -246,28 +184,24 @@ window.addEventListener("DOMContentLoaded", function (event) {
       });
   }
 
-  // Transition head and tail between two steps
-  // Called with every animation frame, except when stepping to a new tile
   function transition(percentageOfStep) {
     // Transition head
-    const head = tiles[snakePositions[snakePositions.length - 1]];
+    const head = tiles[linePositions[linePositions.length - 1]];
     const headDi = headDirection();
     const headValue = `${percentageOfStep * 100}%`;
-    if (headDi == "right" || headDi == "left") head.style.width = headValue;
+    if (headDi == "right" || headDi == "left") head.style.width = headValue; 
     if (headDi == "down" || headDi == "up") head.style.height = headValue;
 
     // Transition tail
-    const tail = tiles[snakePositions[0]];
+    const tail = tiles[linePositions[0]];
     const tailDi = tailDirection();
     const tailValue = `${100 - percentageOfStep * 100}%`;
     if (tailDi == "right" || tailDi == "left") tail.style.width = tailValue;
     if (tailDi == "down" || tailDi == "up") tail.style.height = tailValue;
   }
 
-  // Calculate to which tile will the snake step into
-  // Throw error if the snake bites its tail or hits the wall
   function getNextPosition() {
-    const headPosition = snakePositions[snakePositions.length - 1];
+    const headPosition = linePositions[linePositions.length - 1];
     const snakeDirection = inputs.shift() || headDirection();
     switch (snakeDirection) {
       case "right": {
@@ -275,9 +209,9 @@ window.addEventListener("DOMContentLoaded", function (event) {
         /*
         if (nextPosition % width == 0) throw Error("The snake hit the wall");
         // Ignore the last snake part, it'll move out as the head moves in
-        if (snakePositions.slice(1).includes(nextPosition))
+        */
+        if (linePositions.slice(1).includes(nextPosition))
           throw Error("The snake bit itself");
-          */
         return nextPosition;
       }
       case "left": {
@@ -286,9 +220,9 @@ window.addEventListener("DOMContentLoaded", function (event) {
         if (nextPosition % width == width - 1 || nextPosition < 0)
           throw Error("The snake hit the wall");
         // Ignore the last snake part, it'll move out as the head moves in
-        if (snakePositions.slice(1).includes(nextPosition))
-          throw Error("The snake bit itself");
         */
+        if (linePositions.slice(1).includes(nextPosition))
+          throw Error("The snake bit itself");
         return nextPosition;
       }
       case "down": {
@@ -297,9 +231,9 @@ window.addEventListener("DOMContentLoaded", function (event) {
         if (nextPosition > width * height - 1)
           throw Error("The snake hit the wall");
         // Ignore the last snake part, it'll move out as the head moves in
-        if (snakePositions.slice(1).includes(nextPosition))
+        */
+        if (linePositions.slice(1).includes(nextPosition))
           throw Error("The snake bit itself");
-          */
         return nextPosition;
       }
       case "up": {
@@ -307,25 +241,23 @@ window.addEventListener("DOMContentLoaded", function (event) {
         /*
         if (nextPosition < 0) throw Error("The snake hit the wall");
         // Ignore the last snake part, it'll move out as the head moves in
-        if (snakePositions.slice(1).includes(nextPosition))
+        */
+        if (linePositions.slice(1).includes(nextPosition))
           throw Error("The snake bit itself");
-          */
         return nextPosition;
       }
     }
   }
 
-  // Calculate in which direction the snake's head is moving
   function headDirection() {
-    const head = snakePositions[snakePositions.length - 1];
-    const neck = snakePositions[snakePositions.length - 2];
+    const head = linePositions[linePositions.length - 1];
+    const neck = linePositions[linePositions.length - 2];
     return getDirection(head, neck);
   }
 
-  // Calculate in which direction of the snake's tail
   function tailDirection() {
-    const tail1 = snakePositions[0];
-    const tail2 = snakePositions[1];
+    const tail1 = linePositions[0];
+    const tail2 = linePositions[1];
     return getDirection(tail1, tail2);
   }
 
