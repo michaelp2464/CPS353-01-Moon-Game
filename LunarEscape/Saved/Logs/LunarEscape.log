@@ -1932,3 +1932,221 @@ BP_Gun_C.ReceiveBeginPlay
 [2022.11.26-13.57.49:931][285]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2022.11.26-13.57.49:938][285]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
 [2022.11.26-13.57.49:983][286]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2022.11.26-14.05.58:455][300]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2022.11.26-14.05.58:576][300]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2022.11.26-14.06.00:343][382]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.26-14.06.00:351][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.26-14.06.00:351][382]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 26, 2022, 4:06:00 AM)
+[2022.11.26-14.06.00:351][382]LogPlayLevel: Creating play world package: /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.26-14.06.00:370][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018576s)
+[2022.11.26-14.06.00:371][382]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.11.26-14.06.00:371][382]LogPlayLevel: PIE: World Init took: (0.001113s)
+[2022.11.26-14.06.00:371][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019830s)
+[2022.11.26-14.06.00:415][382]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2022.11.26-14.06.00:417][382]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.11.26-14.06.00:417][382]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.26-14.06.00:417][382]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.26-14.06.00:417][382]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.26-14.06.00:417][382]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.26-14.06.00:417][382]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.26-14.06.00:417][382]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.26-14.06.00:417][382]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.26-14.06.00:417][382]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.26-14.06.00:418][382]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.26-14.06.00:418][382]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.26-14.06.00:418][382]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.26-14.06.00:418][382]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.26-14.06.00:420][382]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.26-14.06.00:420][382]LogAudioMixer: Display: 1: FrontRight
+[2022.11.26-14.06.00:420][382]LogAudioMixer: Display: 2: FrontCenter
+[2022.11.26-14.06.00:420][382]LogAudioMixer: Display: 3: LowFrequency
+[2022.11.26-14.06.00:420][382]LogAudioMixer: Display: 4: BackLeft
+[2022.11.26-14.06.00:420][382]LogAudioMixer: Display: 5: BackRight
+[2022.11.26-14.06.00:420][382]LogAudioMixer: Display: 6: FrontLeftOfCenter
+[2022.11.26-14.06.00:420][382]LogAudioMixer: Display: 7: FrontRightOfCenter
+[2022.11.26-14.06.00:428][382]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud II Wireless)
+[2022.11.26-14.06.00:428][382]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.26-14.06.00:428][382]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.26-14.06.00:428][382]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.26-14.06.00:429][382]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.26-14.06.00:429][382]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.26-14.06.00:429][382]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.11.26-14.06.00:430][382]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.26-14.06.00:430][382]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.26-14.06.00:430][382]LogInit: FAudioDevice initialized.
+[2022.11.26-14.06.00:430][382]LogAudio: Display: Audio Device (ID: 11) registered with world 'ThirdPersonExampleMap'.
+[2022.11.26-14.06.00:436][382]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.11.26-14.06.00:437][382]PIE: Warning: Trying to simulate physics on ''/Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CubeMesh_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2022.11.26-14.06.00:438][382]LogWorld: Bringing World /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.11.26-09.06.00
+[2022.11.26-14.06.00:438][382]LogWorld: Bringing up level for play took: 0.002065
+[2022.11.26-14.06.00:439][382]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2022.11.26-14.06.00:441][382]PIE: Server logged in
+[2022.11.26-14.06.00:442][382]PIE: Play in editor total start time 0.092 seconds.
+[2022.11.26-14.06.02:272][488]LogScript: Warning: Accessed None trying to read property K2Node_Event_Player
+	BP_Gun_C /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Gun_2
+	Function /Game/BranMan/BranMan/Blueprints/items/Guns/BP_Gun.BP_Gun_C:ExecuteUbergraph_BP_Gun:0030
+[2022.11.26-14.06.02:272][488]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_Event_Player". Blueprint:  BP_Gun Function:  Execute Ubergraph BP Gun Graph:  EventGraph Node:  Pick Up Gun
+[2022.11.26-14.06.06:840][762]LogScript: Warning: Accessed None trying to read property K2Node_Event_Player
+	BallGun_C /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BallGun_2
+	Function /Game/BranMan/BranMan/Blueprints/items/Guns/BP_Gun.BP_Gun_C:ExecuteUbergraph_BP_Gun:0030
+[2022.11.26-14.06.06:840][762]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_Event_Player". Blueprint:  BP_Gun Function:  Execute Ubergraph BP Gun Graph:  EventGraph Node:  Pick Up Gun
+[2022.11.26-14.06.10:351][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.26-14.06.10:351][971]LogWorld: BeginTearingDown for /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.26-14.06.10:351][971]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-14.06.10:352][971]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-14.06.10:364][971]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.26-14.06.10:371][971]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-14.06.10:407][971]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.26-14.06.10:407][971]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.26-14.06.10:409][971]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.26-14.06.10:410][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.26-14.06.10:416][971]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2022.11.26-14.06.10:446][972]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.11.26-14.06.35:538][387]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2022.11.26-14.06.35:641][387]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2022.11.26-14.06.37:157][462]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.26-14.06.37:166][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.26-14.06.37:166][462]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 26, 2022, 4:06:37 AM)
+[2022.11.26-14.06.37:189][462]LogPlayLevel: Creating play world package: /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.26-14.06.37:198][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009350s)
+[2022.11.26-14.06.37:199][462]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.11.26-14.06.37:199][462]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2022.11.26-14.06.37:199][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010420s)
+[2022.11.26-14.06.37:241][462]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2022.11.26-14.06.37:242][462]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.11.26-14.06.37:242][462]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.26-14.06.37:242][462]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.26-14.06.37:242][462]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.26-14.06.37:242][462]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.26-14.06.37:242][462]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.26-14.06.37:242][462]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.26-14.06.37:242][462]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.26-14.06.37:242][462]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.26-14.06.37:243][462]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.26-14.06.37:243][462]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.26-14.06.37:243][462]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.26-14.06.37:243][462]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.26-14.06.37:244][462]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.26-14.06.37:244][462]LogAudioMixer: Display: 1: FrontRight
+[2022.11.26-14.06.37:244][462]LogAudioMixer: Display: 2: FrontCenter
+[2022.11.26-14.06.37:244][462]LogAudioMixer: Display: 3: LowFrequency
+[2022.11.26-14.06.37:244][462]LogAudioMixer: Display: 4: BackLeft
+[2022.11.26-14.06.37:244][462]LogAudioMixer: Display: 5: BackRight
+[2022.11.26-14.06.37:244][462]LogAudioMixer: Display: 6: FrontLeftOfCenter
+[2022.11.26-14.06.37:244][462]LogAudioMixer: Display: 7: FrontRightOfCenter
+[2022.11.26-14.06.37:253][462]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud II Wireless)
+[2022.11.26-14.06.37:253][462]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.26-14.06.37:253][462]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.26-14.06.37:253][462]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.26-14.06.37:253][462]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.26-14.06.37:254][462]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.26-14.06.37:254][462]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.11.26-14.06.37:255][462]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.26-14.06.37:255][462]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.26-14.06.37:255][462]LogInit: FAudioDevice initialized.
+[2022.11.26-14.06.37:255][462]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonExampleMap'.
+[2022.11.26-14.06.37:262][462]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.11.26-14.06.37:263][462]PIE: Warning: Trying to simulate physics on ''/Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CubeMesh_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2022.11.26-14.06.37:265][462]LogWorld: Bringing World /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.11.26-09.06.37
+[2022.11.26-14.06.37:265][462]LogWorld: Bringing up level for play took: 0.002236
+[2022.11.26-14.06.37:265][462]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2022.11.26-14.06.37:268][462]PIE: Server logged in
+[2022.11.26-14.06.37:269][462]PIE: Play in editor total start time 0.103 seconds.
+[2022.11.26-14.06.38:167][513]PIE: Warning: AttachTo: '/Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder' root component cannot be attached to other components in the same actor. Aborting.
+[2022.11.26-14.06.41:006][681]PIE: Warning: AttachTo: '/Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder' root component cannot be attached to other components in the same actor. Aborting.
+[2022.11.26-14.06.43:481][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.26-14.06.43:481][823]LogWorld: BeginTearingDown for /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.26-14.06.43:481][823]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-14.06.43:482][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-14.06.43:492][823]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.26-14.06.43:499][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-14.06.43:534][823]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.26-14.06.43:534][823]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.26-14.06.43:535][823]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.26-14.06.43:537][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.26-14.06.43:542][823]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2022.11.26-14.06.43:587][824]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.11.26-14.07.00:916][127]LogSlate: Window 'Message Log' being destroyed
+[2022.11.26-14.07.00:922][127]LogSlate: Window 'Message Log' being destroyed
+[2022.11.26-14.07.53:080][387]LogSavePackage: Moving '../../../../../../UE_4.27/MoonGame/LunarEscape/Saved/ThirdPersonCharacter143D1B954090CF1B1CCE42A28F38139A.tmp' to '../../../../../../UE_4.27/MoonGame/LunarEscape/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2022.11.26-14.07.53:100][387]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2022.11.26-14.07.53:100][387]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2022.11.26-14.08.20:822][746]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2022.11.26-14.08.20:846][746]LogSavePackage: Moving '../../../../../../UE_4.27/MoonGame/LunarEscape/Saved/ThirdPersonExampleMap_Auto2E5DA56004C023C3A4866E7923F4A95B6.tmp' to '../../../../../../UE_4.27/MoonGame/LunarEscape/Saved/Autosaves/Game/BranMan/ThirdPersonBPFor11-26Push/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2022.11.26-14.08.20:847][746]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BranMan/ThirdPersonBPFor11-26Push/Maps/ThirdPersonExampleMap' took 0.065
+[2022.11.26-14.08.20:847][746]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.065
+[2022.11.26-14.09.41:185][540]BlueprintLog: New page: Compile BP_Gun
+[2022.11.26-14.09.41:267][540]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2022.11.26-14.09.43:855][669]LogTemp: Repeating last play command: Selected Viewport
+[2022.11.26-14.09.43:862][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.26-14.09.43:862][669]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 26, 2022, 4:09:43 AM)
+[2022.11.26-14.09.43:862][669]LogPlayLevel: Creating play world package: /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.26-14.09.43:881][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018294s)
+[2022.11.26-14.09.43:881][669]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.11.26-14.09.43:881][669]LogPlayLevel: PIE: World Init took: (0.000938s)
+[2022.11.26-14.09.43:882][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019362s)
+[2022.11.26-14.09.43:923][669]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2022.11.26-14.09.43:925][669]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.11.26-14.09.43:925][669]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.26-14.09.43:925][669]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.26-14.09.43:925][669]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.26-14.09.43:925][669]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.26-14.09.43:925][669]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.26-14.09.43:925][669]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.26-14.09.43:925][669]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.26-14.09.43:925][669]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.26-14.09.43:925][669]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.26-14.09.43:925][669]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.26-14.09.43:925][669]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.26-14.09.43:925][669]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.26-14.09.43:927][669]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.26-14.09.43:927][669]LogAudioMixer: Display: 1: FrontRight
+[2022.11.26-14.09.43:927][669]LogAudioMixer: Display: 2: FrontCenter
+[2022.11.26-14.09.43:927][669]LogAudioMixer: Display: 3: LowFrequency
+[2022.11.26-14.09.43:927][669]LogAudioMixer: Display: 4: BackLeft
+[2022.11.26-14.09.43:927][669]LogAudioMixer: Display: 5: BackRight
+[2022.11.26-14.09.43:927][669]LogAudioMixer: Display: 6: FrontLeftOfCenter
+[2022.11.26-14.09.43:927][669]LogAudioMixer: Display: 7: FrontRightOfCenter
+[2022.11.26-14.09.43:935][669]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud II Wireless)
+[2022.11.26-14.09.43:935][669]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.26-14.09.43:935][669]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.26-14.09.43:935][669]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.26-14.09.43:936][669]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.26-14.09.43:936][669]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.11.26-14.09.43:936][669]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.11.26-14.09.43:936][669]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.11.26-14.09.43:937][669]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.11.26-14.09.43:937][669]LogInit: FAudioDevice initialized.
+[2022.11.26-14.09.43:937][669]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonExampleMap'.
+[2022.11.26-14.09.43:945][669]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.11.26-14.09.43:947][669]PIE: Warning: Trying to simulate physics on ''/Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CubeMesh_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2022.11.26-14.09.43:948][669]LogWorld: Bringing World /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.11.26-09.09.43
+[2022.11.26-14.09.43:948][669]LogWorld: Bringing up level for play took: 0.002174
+[2022.11.26-14.09.43:948][669]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2022.11.26-14.09.43:951][669]PIE: Server logged in
+[2022.11.26-14.09.43:952][669]PIE: Play in editor total start time 0.091 seconds.
+[2022.11.26-14.09.44:790][716]PIE: Warning: AttachTo: '/Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder' root component cannot be attached to other components in the same actor. Aborting.
+[2022.11.26-14.09.47:239][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.26-14.09.47:239][861]LogWorld: BeginTearingDown for /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.11.26-14.09.47:239][861]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.26-14.09.47:240][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-14.09.47:248][861]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.26-14.09.47:255][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.26-14.09.47:290][861]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.26-14.09.47:290][861]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.26-14.09.47:291][861]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.11.26-14.09.47:293][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.26-14.09.47:297][861]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.11.26-14.09.47:336][862]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.11.26-14.18.36:916][737]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2022.11.26-14.18.36:943][737]LogSavePackage: Moving '../../../../../../UE_4.27/MoonGame/LunarEscape/Saved/ThirdPersonExampleMap_Auto388BBB60648E81D25801CEB9F8C5B19B1.tmp' to '../../../../../../UE_4.27/MoonGame/LunarEscape/Saved/Autosaves/Game/BranMan/ThirdPersonBPFor11-26Push/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2022.11.26-14.18.36:944][737]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BranMan/ThirdPersonBPFor11-26Push/Maps/ThirdPersonExampleMap' took 0.079
+[2022.11.26-14.18.36:944][737]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.079
+[2022.11.26-14.18.36:945][737]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BranMan/BranMan/Blueprints/items/Guns/BP_Gun] ([2] browsable assets)...
+[2022.11.26-14.18.36:976][737]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BranMan/BranMan/Blueprints/items/Guns/BP_Gun.BP_Gun]
+[2022.11.26-14.18.36:976][737]OBJ SavePackage: Finished generating thumbnails for package [/Game/BranMan/BranMan/Blueprints/items/Guns/BP_Gun]
+[2022.11.26-14.18.36:998][737]LogSavePackage: Moving '../../../../../../UE_4.27/MoonGame/LunarEscape/Saved/BP_Gun_Auto395217E13470A056A9864E9BA1759A268.tmp' to '../../../../../../UE_4.27/MoonGame/LunarEscape/Saved/Autosaves/Game/BranMan/BranMan/Blueprints/items/Guns/BP_Gun_Auto3.uasset'
+[2022.11.26-14.18.36:998][737]LogFileHelpers: Auto-saving content packages took 0.053
+[2022.11.26-14.19.30:787][  7]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2022.11.26-14.19.30:791][  7]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.26-14.20.08:669][496]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/BranMan/Mannequin/Animations/BranMan/BranMan/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip
