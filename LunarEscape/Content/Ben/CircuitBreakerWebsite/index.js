@@ -3,6 +3,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
   window.focus(); 
 
   let linePositions; //tracks which tiles the line is currently occupying, with the last value being the head
+  let applePositions; //tracks which tiles the apple is currently occupying
   let startTimestamp; //tracks when the game started
   let stepsTaken; //tracks how many steps have taken
   let inputs; //tracks what inputs the player has pressed that need to be fulfilled using an array
@@ -12,7 +13,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
   const speed = 55; //how long it takes for a tile to be filled
   const width = 103; //width of each tile
   const height = 55; //height of each tile
-  const color = "black"; //color of the tile
+  const color = "blue"; //color of the tile
 
   //Create a reference to grid
   const grid = document.querySelector(".grid");
@@ -37,7 +38,15 @@ window.addEventListener("DOMContentLoaded", function (event) {
   */
   function resetGame() {
     linePositions = [5150, 5151, 5152, 5153, 5154];
+    applePositions = [];
+   
+    
+    generateCollisionRect(); //creates collision rectangles
+    generateCollisionRect();
+    console.log(applePositions);
+    
 
+    
     // Reset game progress
     startTimestamp = undefined;
     stepsTaken = 0;
@@ -45,6 +54,13 @@ window.addEventListener("DOMContentLoaded", function (event) {
 
     //reset all the tiles in the array tiles
     for (const tile of tiles) setTile(tile); 
+
+    // Render apple
+    for(const i of applePositions){
+      setTile(tiles[i], {
+        "background-color": "black",
+      });
+    }
 
     // Render lines when the webpage is loaded
     for (const i of linePositions.slice(1)) {
@@ -56,7 +72,23 @@ window.addEventListener("DOMContentLoaded", function (event) {
         linePart.style.left = 0;
       if (i == linePositions[0]) linePart.style.right = 0;
     }
+
+    noteElement.innerHTML = "Press Space to Start";
   }
+
+  function generateCollisionRect(){
+    let num = Math.floor(Math.random() * 5665); //starting point, random int
+    let bound1 = Math.floor(Math.random() * (20 - 10 + 1) + 10);
+    let bound2 = Math.floor(Math.random() * (20 - 10 + 1) + 10);
+    for(let i = 0; i < bound1; i++){
+      applePositions.push(num); //each column in the row
+      for(let j = 0; j < bound2; j++){
+        applePositions.push(num+103*(j+1)); //each row in the column
+      }
+      num++; //switch to the next column
+    }
+  }
+  
 
   function startGame() {
     gameStarted = true;
@@ -129,6 +161,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
       } else {
         transition(percentageOfStep);
       }
+
       window.requestAnimationFrame(main);
     } catch (error) {
       noteElement.innerHTML = `${error.message}`;
@@ -203,6 +236,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
   function getNextPosition() {
     const headPosition = linePositions[linePositions.length - 1];
     const snakeDirection = inputs.shift() || headDirection();
+   
     switch (snakeDirection) {
       case "right": {
         const nextPosition = headPosition + 1;
@@ -212,6 +246,10 @@ window.addEventListener("DOMContentLoaded", function (event) {
         */
         if (linePositions.slice(1).includes(nextPosition))
           throw Error("The snake bit itself");
+        if (applePositions.includes(nextPosition)) {
+          gameOver();
+        }
+    
         return nextPosition;
       }
       case "left": {
@@ -223,6 +261,9 @@ window.addEventListener("DOMContentLoaded", function (event) {
         */
         if (linePositions.slice(1).includes(nextPosition))
           throw Error("The snake bit itself");
+        if (applePositions.includes(nextPosition)) {
+          gameOver();
+        }
         return nextPosition;
       }
       case "down": {
@@ -234,6 +275,9 @@ window.addEventListener("DOMContentLoaded", function (event) {
         */
         if (linePositions.slice(1).includes(nextPosition))
           throw Error("The snake bit itself");
+        if (applePositions.includes(nextPosition)) {
+          gameOver();
+        }
         return nextPosition;
       }
       case "up": {
@@ -244,6 +288,9 @@ window.addEventListener("DOMContentLoaded", function (event) {
         */
         if (linePositions.slice(1).includes(nextPosition))
           throw Error("The snake bit itself");
+        if (applePositions.includes(nextPosition)) {
+          gameOver();
+        }
         return nextPosition;
       }
     }
@@ -267,6 +314,32 @@ window.addEventListener("DOMContentLoaded", function (event) {
     if (first - width == second) return "down";
     if (first + width == second) return "up";
     throw Error("the two tile are not connected");
+  }
+
+  function gameOver() {
+    for(const i in linePositions){
+      setTile(tiles[linePositions[i]], {
+        "background-color": "black",
+      });
+    }
+    
+    throw Error("Restart?");
+  }
+
+  function createLevelRect(){
+    // Find a position for the new apple that is not yet taken by the snake
+    let newPosition;
+    do {
+      newPosition = Math.floor(Math.random() * width * height);
+    } while (linePositions.includes(newPosition));
+
+    // Set new apple
+    setTile(tiles[newPosition], {
+      "background-color": "red",
+    });
+
+    // Note that the apple is here
+    applePositions.push(newPosition);
   }
 
   // Resets size and position related CSS properties

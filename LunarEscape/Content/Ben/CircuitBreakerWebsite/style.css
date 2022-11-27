@@ -10,10 +10,11 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: var(--color);
 
-  background-image: url("CircuitBreakerMap.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 80%;
+  background-image: url("CircuitBackground1.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 
