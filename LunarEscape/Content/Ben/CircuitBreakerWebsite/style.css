@@ -10,11 +10,14 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: var(--color);
 
-  background-image: url("CircuitBackground1.jpg");
+  /*background-image: url("CircuitBreakerMap.png");*/
+  background-color: green;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: 85% 86%;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 
@@ -38,6 +41,8 @@ body {
 }
 
 .grid {
+  outline: thick solid #000000;
+  outline-width: 20px;
   display: grid;
   grid-template-columns: repeat(103, auto);
   grid-template-rows: repeat(55, auto);
