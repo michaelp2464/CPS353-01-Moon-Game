@@ -1,8 +1,10 @@
 window.addEventListener("DOMContentLoaded", function (event) {
-  //Allow the user input to be focused into the game without needing to click on it
+  //Allow the user input to be focused into the game without needing to click on itplayer
   window.focus(); 
 
   let linePositions; //tracks which tiles the line is currently occupying, with the last value being the head
+  let startingPositions;
+  let endingPositions;
   let applePositions; //tracks which tiles the apple is currently occupying
   let borderPositions;
   let startTimestamp; //tracks when the game started
@@ -13,7 +15,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
   let counter = 1; //if this reaches 3, it is the last level
 
   // Configuration
-  let speed = 150; //how long it takes for a tile to be filled
+  let speed = 100; //how long it takes for a tile to be filled
   const width = 103; //width of each tile
   const height = 55; //height of each tile
   const color = "yellow"; //color of the tile
@@ -28,364 +30,67 @@ window.addEventListener("DOMContentLoaded", function (event) {
     tile.setAttribute("class", "tile");
     tile.appendChild(content);
     grid.appendChild(tile);
-    content.innerHTML = i+1; //DELETE later
+    content.innerHTML = Math.round(Math.random());
   }
 
   //Create a reference to all of the tiles that we created using an array
   const tiles = document.querySelectorAll(".grid .tile .content");
 
   const noteElement = document.querySelector("footer");
-  resetGame();
+  reset();
 
   /*
-    resetGame() resets everything to its default values
+    reset() resets entire game, if reset(true) then will increase level & difficulty
   */
-  function resetGame() {
-    counter = 1;
-    borderPositions = [
-      0,
-      103,
-      206,
-      309,
-      412,
-      515,
-      618,
-      721,
-      824,
-      927,
-      1030,
-      1133,
-      1236,
-      1339,
-      1442,
-      1545,
-      1648,
-      1751,
-      1854,
-      1957,
-      2060,
-      2163,
-      2266,
-      2369,
-      2472,
-      2575,
-      2678,
-      2781,
-      2884,
-      2987,
-      3090,
-      3193,
-      3296,
-      3399,
-      3502,
-      3605,
-      3708,
-      3811,
-      3914,
-      4017,
-      4120,
-      4223,
-      4326,
-      4429,
-      4532,
-      4635,
-      4738,
-      4841,
-      4944,
-      5047,
-      5150,
-      5253,
-      5356,
-      5459,
-      5562,
-      102,
-      205,
-      308,
-      411,
-      514,
-      617,
-      720,
-      823,
-      926,
-      1029,
-      1132,
-      1235,
-      1338,
-      1441,
-      1544,
-      1647,
-      1750,
-      1853,
-      1956,
-      2059,
-      2162,
-      2265,
-      2368,
-      2471,
-      2574,
-      2677,
-      2780,
-      2883,
-      2986,
-      3089,
-      3192,
-      3295,
-      3398,
-      3501,
-      3604,
-      3707,
-      3810,
-      3913,
-      4016,
-      4119,
-      4222,
-      4325,
-      4428,
-      4531,
-      4634,
-      4737,
-      4840,
-      4943,
-      5046,
-      5149,
-      5252,
-      5355,
-      5458,
-      5561,
-      5664,
-      5566,
-      5567,
-      5568,
-      5569,
-      5570,
-      5571,
-      5572,
-      5573,
-      5574,
-      5575,
-      5576,
-      5577,
-      5578,
-      5579,
-      5580,
-      5581,
-      5582,
-      5583,
-      5584,
-      5585,
-      5586,
-      5587,
-      5588,
-      5589,
-      5590,
-      5591,
-      5592,
-      5593,
-      5594,
-      5595,
-      5596,
-      5597,
-      5598,
-      5599,
-      5600,
-      5601,
-      5602,
-      5603,
-      5604,
-      5605,
-      5606,
-      5607,
-      5608,
-      5609,
-      5610,
-      5611,
-      5612,
-      5613,
-      5614,
-      5615,
-      5616,
-      5617,
-      5618,
-      5619,
-      5620,
-      5621,
-      5622,
-      5623,
-      5624,
-      5625,
-      5626,
-      5627,
-      5628,
-      5629,
-      5630,
-      5631,
-      5632,
-      5633,
-      5634,
-      5635,
-      5636,
-      5637,
-      5638,
-      5639,
-      5640,
-      5641,
-      5642,
-      5643,
-      5644,
-      5645,
-      5646,
-      5647,
-      5648,
-      5649,
-      5650,
-      5651,
-      5652,
-      5653,
-      5654,
-      5655,
-      5656,
-      5657,
-      5658,
-      5659,
-      5660,
-      5661,
-      5662,
-      5663,
-      5664,
-      5665,
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50,
-      51,
-      52,
-      53,
-      54,
-      55,
-      56,
-      57,
-      58,
-      59,
-      60,
-      61,
-      62,
-      63,
-      64,
-      65,
-      66,
-      67,
-      68,
-      69,
-      70,
-      71,
-      72,
-      73,
-      74,
-      75,
-      76,
-      77,
-      78,
-      79,
-      80,
-      81,
-      82,
-      83,
-      84,
-      85,
-      86,
-      87,
-      88,
-      89,
-      90,
-      91,
-      92,
-      93,
-      94,
-      95,
-      96,
-      97,
-      98,
-      99,
-      100,
-      101,
-      102,
-      103
-  ];
 
-  console.log(borderPositions);
+   
+  function reset() {
+    reset(false);
+  }
 
+  function reset(increaseLevel){
+    if(increaseLevel == "nextLevel"){
+      
+      /*
+      speed -= 50;
+      counter += 1;
+      linePositions = [5667, 5668]; 
+      applePositions = []; 
+      for(let i = 0; i < 9; i++){
+        generateRandomCollisionRect(0);
+      }   
+      generateCollisionRect();
+      // Reset game progress
+      startTimestamp = undefined;
+      stepsTaken = 0;
+      inputs = [];
 
-
-
-
-
+      //reset all the tiles in the array tiles
+      for (const tile of tiles) setTile(tile); 
+      */
+    } else {
+    speed = 100;
+    counter = 1; //what level is the player in
+    borderPositions =
+      [ 0, 103, 206, 309, 412, 515, 618, 721, 824, 927, 1030, 1133, 1236, 1339, 1442, 1545, 1648, 1751, 1854, 1957, 2060, 2163, 2266, 2369, 2472, 2575, 2678, 2781, 2884, 2987, 3090, 3193, 3296, 3399, 3502, 3605, 3708, 3811, 3914, 4017, 4120, 4223, 4326, 4429, 4532, 4635, 4738, 4841, 4944, 5047, 5150, 5253, 5356, 5459, 5562, 102, 205, 308, 411, 514, 617, 720, 823, 926, 1029, 1132, 1235, 1338, 1441, 1544, 1647, 1750, 1853, 1956, 2059, 2162, 2265, 2368, 2471, 2574, 2677, 2780, 2883, 2986, 3089, 3192, 3295, 3398, 3501, 3604, 3707, 3810, 3913, 4016, 4119, 4222, 4325, 4428, 4531, 4634, 4737, 4840, 4943, 5046, 5149, 5252, 5355, 5458, 5561, 5664, 5566, 5567, 5568, 5569, 5570, 5571, 5572, 5573, 5574, 5575, 5576, 5577, 5578, 5579, 5580, 5581, 5582, 5583, 5584, 5585, 5586, 5587, 5588, 5589, 5590, 5591, 5592, 5593, 5594, 5595, 5596, 5597, 5598, 5599, 5600, 5601, 5602, 5603, 5604, 5605, 5606, 5607, 5608, 5609, 5610, 5611, 5612, 5613, 5614, 5615, 5616, 5617, 5618, 5619, 5620, 5621, 5622, 5623, 5624, 5625, 5626, 5627, 5628, 5629, 5630, 5631, 5632, 5633, 5634, 5635, 5636, 5637, 5638, 5639, 5640, 5641, 5642, 5643, 5644, 5645, 5646, 5647, 5648, 5649, 5650, 5651, 5652, 5653, 5654, 5655, 5656, 5657, 5658, 5659, 5660, 5661, 5662, 5663, 5665, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101];
 
     //make sure nothing overlaps in the vicinity
     startingPositions =  
-     [5049,
-      5050,
-      5051,
-      5052,
-      5053,
-      5054,
-      5055,
-      5056,
-      5057,
-      5058,
-      ]; 
+     [5049, 5050, 5051, 5052, 5053,
+      5054, 5055, 5056, 5057, 5058]; 
+
+    endingPositions = 
+    [ 90, 91, 92, 93, 94, 95,
+      193, 194, 195, 196, 197, 198,
+      296, 297, 298, 299, 300, 301];
+
     linePositions = [5564, 5461]; 
     applePositions = []; 
-    //generateBorderCollision(); //finds the border of the grid array
-    for(let i = 0; i < 15; i++){
-      generateCollisionRect(0);
+    for(let i = 0; i < 9; i++){
+      generateRandomCollisionRect(0);
     }   
+    
+    generateCollisionRect();
     
     // Reset game progress
     startTimestamp = undefined;
@@ -401,6 +106,12 @@ window.addEventListener("DOMContentLoaded", function (event) {
         "background-color": "black",
       });
     }
+    
+    for(const j of endingPositions){
+      setTile(tiles[j], {
+        "background-color": "#023020",
+      });
+    }
 
     // Render lines when the webpage is loaded
     for (const i of linePositions.slice(1)) {
@@ -413,7 +124,14 @@ window.addEventListener("DOMContentLoaded", function (event) {
       if (i == linePositions[0]) linePart.style.right = 0;
     }
 
-    noteElement.innerHTML = "Press Space to Start";
+    /*
+    for(let i = 0; i < borderPositions.length; i++){
+        style.backgroundColor = color;
+    }
+    */
+
+    //noteElement.innerHTML = "Press Space to Start";
+    }
   }
 
 /*
@@ -435,20 +153,46 @@ window.addEventListener("DOMContentLoaded", function (event) {
   }
 */
 
-/*
-function generateCollisionRect(numOfCalls){
+//rectangles that we want in every level
+  function generateCollisionRect() {
+    //generate first rectangle
+    let num = 4067; //starting point, random int
+    let bound1 = 25;
+    let bound2 = 13;
+    for(let i = 0; i < bound1; i++){
+      if(!applePositions.includes(num)){
+        applePositions.push(num);
+      } 
+      for(let j = 0; j < bound2; j++){//each column in the row
+        let numRow = num+103*(j+1);
+        if(!applePositions.includes(numRow)){
+          applePositions.push(numRow);
+        }
+      }
+      num++; //switch to the next column
+    }
 
-  if(numOfCalls > 15){
-    return;
+    //generate second rectangle
+    num = 24;
+    bound1 = 35;
+    bound2 = 10;
+    for(let i = 0; i < bound1; i++){
+      if(!applePositions.includes(num)){
+        applePositions.push(num);
+      } 
+      for(let j = 0; j < bound2; j++){//each column in the row
+        let numRow = num+103*(j+1);
+        if(!applePositions.includes(numRow)){
+          applePositions.push(numRow);
+        }
+      }
+      num++; //switch to the next column
+    }
   }
 
-  let startingPoint = Math.floor(Math.random() * 5665); //starting point, random int
-  generateCollisionRect(startingPoint, numOfCalls);
-}
-*/
 
-
-  function generateCollisionRect(numOfCalls){ //if it includes borderPositions, re-generate the collision rect
+  //numOfCalls prevents stackOverflow
+  function generateRandomCollisionRect(numOfCalls){ //if it includes borderPositions, re-generate the collision rect
 
     if(numOfCalls > 15){
       return ;
@@ -473,7 +217,7 @@ function generateCollisionRect(numOfCalls){
           startingPositions.includes(num) ||
           startingPositions.includes(numRow)){
 
-          generateCollisionRect(numOfCalls+1);
+          generateRandomCollisionRect(numOfCalls+1);
           return ;
           
         } else {
@@ -506,7 +250,7 @@ function generateCollisionRect(numOfCalls){
     
     //configures the spacebar to be our reset key
     if (event.key == " ") {
-      resetGame();
+      reset();
       startGame();
       return;
     }
@@ -548,6 +292,9 @@ function generateCollisionRect(numOfCalls){
   });
 
   function main(timestamp) {
+    if(counter > 3){
+      gameOver("won");
+    }
     try {
       if (startTimestamp === undefined) startTimestamp = timestamp;
       const totalElapsedTime = timestamp - startTimestamp;
@@ -565,8 +312,8 @@ function generateCollisionRect(numOfCalls){
 
       window.requestAnimationFrame(main);
     } catch (error) {
-      gameOver();
-      noteElement.innerHTML = `${error.message}. ${pressSpaceToStart} <div>${changeMode}</div> ${followMe}`;
+      gameOver("lost");
+      //noteElement.innerHTML = `${error.message}. ${pressSpaceToStart}`;
     }
   }
 
@@ -638,64 +385,50 @@ function generateCollisionRect(numOfCalls){
   function getNextPosition() {
     const headPosition = linePositions[linePositions.length - 1];
     const snakeDirection = inputs.shift() || headDirection();
+    let nextPosition;
    
     switch (snakeDirection) {
       case "right": {
-        const nextPosition = headPosition + 1;
-        /*
+        nextPosition = headPosition + 1;
         if (nextPosition % width == 0) throw Error("The snake hit the wall");
         // Ignore the last snake part, it'll move out as the head moves in
-        */
-        if (linePositions.slice(1).includes(nextPosition))
-          throw Error("The snake bit itself");
-        if (applePositions.includes(nextPosition) || borderPositions.includes(nextPosition)) {
-          gameOver();
-        }
-    
-        return nextPosition;
+        
+        break;
       }
       case "left": {
-        const nextPosition = headPosition - 1;
-        /*
+        nextPosition = headPosition - 1;
         if (nextPosition % width == width - 1 || nextPosition < 0)
           throw Error("The snake hit the wall");
         // Ignore the last snake part, it'll move out as the head moves in
-        */
-        if (linePositions.slice(1).includes(nextPosition))
-          throw Error("The snake bit itself");
-        if (applePositions.includes(nextPosition) || borderPositions.includes(nextPosition)) {
-          gameOver();
-        }
-        return nextPosition;
+        
+        break;
       }
       case "down": {
-        const nextPosition = headPosition + width;
-        /*
+        nextPosition = headPosition + width;
         if (nextPosition > width * height - 1)
           throw Error("The snake hit the wall");
         // Ignore the last snake part, it'll move out as the head moves in
-        */
-        if (linePositions.slice(1).includes(nextPosition))
-          throw Error("The snake bit itself");
-        if (applePositions.includes(nextPosition) || borderPositions.includes(nextPosition)) {
-          gameOver();
-        }
-        return nextPosition;
+        
+        break;
       }
       case "up": {
-        const nextPosition = headPosition - width;
-        /*
+        nextPosition = headPosition - width;
         if (nextPosition < 0) throw Error("The snake hit the wall");
         // Ignore the last snake part, it'll move out as the head moves in
-        */
-        if (linePositions.slice(1).includes(nextPosition))
-          throw Error("The snake bit itself");
-        if (applePositions.includes(nextPosition) || borderPositions.includes(nextPosition)) {
-          gameOver();
-        }
-        return nextPosition;
+        break;
       }
     }
+
+    if(endingPositions.includes(nextPosition)){
+      reset("nextLevel");
+      return;
+    }
+    if (linePositions.slice(1).includes(nextPosition))
+      throw Error("The snake bit itself");
+    if (applePositions.includes(nextPosition) || borderPositions.includes(nextPosition)) {
+      gameOver("lost");
+    }
+    return nextPosition;
   }
 
   function headDirection() {
@@ -718,30 +451,24 @@ function generateCollisionRect(numOfCalls){
     throw Error("the two tile are not connected");
   }
 
-  function gameOver() {
-    for(const i in linePositions){
-      setTile(tiles[linePositions[i]], {
-        "background-color": "black",
-      });
-    }
-    
-    throw Error("Restart?");
+  function nextLevel(){
+    //change level display
+    speed-=50;
+    counter++;
   }
 
-  function createLevelRect(){
-    // Find a position for the new apple that is not yet taken by the snake
-    let newPosition;
-    do {
-      newPosition = Math.floor(Math.random() * width * height);
-    } while (linePositions.includes(newPosition));
-
-    // Set new apple
-    setTile(tiles[newPosition], {
-      "background-color": "red",
-    });
-
-    // Note that the apple is here
-    applePositions.push(newPosition);
+  function gameOver(gameState) {
+    if(gameState = "lost"){
+      for(const i in linePositions){
+        setTile(tiles[linePositions[i]], {
+          "background-color": "black",
+        });
+      }
+      
+      throw Error("Restart?");
+    } else if("won"){
+      //display winning page
+    }
   }
 
   // Resets size and position related CSS properties
