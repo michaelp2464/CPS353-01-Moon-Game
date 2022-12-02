@@ -262,7 +262,6 @@ window.addEventListener("DOMContentLoaded", function (event) {
 
     if (
       event.key == "ArrowLeft" &&
-      inputs[inputs.length - 1] != "left" &&
       headDirection() != "right"
     ) {
       inputs.push("left");
