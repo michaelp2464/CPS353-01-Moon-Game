@@ -1209,3 +1209,381 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.12.02-19.46.46:519][597]LogSavePackage: Moving '../../../../../../UE_4.27/MoonGame/LunarEscape/Saved/ThirdPersonCharacter5384958340577ABC477F3FA5AB918FF7.tmp' to '../../../../../../UE_4.27/MoonGame/LunarEscape/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
 [2022.12.02-19.46.46:535][597]AssetCheck: New page: Asset Save: ThirdPersonCharacter
 [2022.12.02-19.46.46:535][597]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2022.12.02-19.52.43:974][238]LogBlueprint: Error: [AssetLog] C:\UE_4.27\MoonGame\LunarEscape\Content\BranMan\12-2-2022Push\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] COMPILER ERROR: failed building connection with 'Third Person Character Object Reference is not compatible with Self Object Reference.' at  On Interacted
+[2022.12.02-19.52.43:975][238]LogBlueprint: Error: [AssetLog] C:\UE_4.27\MoonGame\LunarEscape\Content\BranMan\12-2-2022Push\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] COMPILER ERROR: failed building connection with 'Third Person Character Object Reference is not compatible with Self Object Reference.' at  On Interaction Range Entered
+[2022.12.02-19.52.44:025][238]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_2.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.47:679][428]LogContentBrowser: Attempting asset rename: ThirdPersonCharacter -> ThirdPersonCharacter
+[2022.12.02-19.52.55:523][875]LogContentBrowser: Attempting asset rename: ThirdPersonCharacter -> OldThirdPersonCharacter
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter_C' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter:watchObject.K2Node_FunctionEntry_0' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter:equipItem.K2Node_FunctionEntry_0' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter:disableHUD.K2Node_FunctionEntry_0' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter:Hide Item from Screen.K2Node_FunctionEntry_0' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter:displayItemOnScreen.K2Node_FunctionEntry_0' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter:CreateUI.K2Node_FunctionEntry_1' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter:PickUpGun.K2Node_FunctionEntry_1' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter:UpdateGunAttachments.K2Node_FunctionEntry_0' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter:EquippedGun.K2Node_Tunnel_0' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter:EquippedGun.K2Node_Tunnel_1' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter:StowedGun.K2Node_Tunnel_2' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter:StowedGun.K2Node_Tunnel_3' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter:SetEquippedGun.K2Node_Tunnel_2' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter:SetEquippedGun.K2Node_Tunnel_3' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.SKEL_OldThirdPersonCharacter_C:ReceiveTick' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.SKEL_OldThirdPersonCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.SKEL_OldThirdPersonCharacter_C:BndEvt__ThirdPersonCharacter_CapsuleComponent_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.SKEL_OldThirdPersonCharacter_C:BndEvt__ThirdPersonCharacter_CapsuleComponent_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.SKEL_OldThirdPersonCharacter_C:PhysicsHandleLocation' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.SKEL_OldThirdPersonCharacter_C:FireTelekinesis' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.SKEL_OldThirdPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.SKEL_OldThirdPersonCharacter_C:equipItem' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:566][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.SKEL_OldThirdPersonCharacter_C:disableHUD' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:567][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.SKEL_OldThirdPersonCharacter_C:displayItemOnScreen' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:567][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.SKEL_OldThirdPersonCharacter_C:Hide Item from Screen' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:567][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.SKEL_OldThirdPersonCharacter_C' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:567][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:567][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter_C:ReceiveTick' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:567][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter_C:PhysicsHandleLocation' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:567][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter_C:equipItem' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:567][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter_C:disableHUD' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:567][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter_C:displayItemOnScreen' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:567][875]LogMetaData: Removing '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter_C:Hide Item from Screen' ref from Metadata '/Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.12.02-19.52.55:599][875]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_5:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.55:625][875]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_6:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.55:764][875]LogSavePackage: Moving '../../../../../../UE_4.27/MoonGame/LunarEscape/Saved/OldThirdPersonCharacter11A1D74E44B91944D5FE599AD74E45D8.tmp' to '../../../../../../UE_4.27/MoonGame/LunarEscape/Content/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.uasset'
+[2022.12.02-19.52.55:868][875]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2022.12.02-19.52.55:897][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.12.02-19.52.55:913][875]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.12.02-19.52.55:951][875]AssetCheck: New page: Asset Save: OldThirdPersonCharacter
+[2022.12.02-19.52.55:951][875]LogContentValidation: Display: Validating Blueprint /Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter
+[2022.12.02-19.52.57:733][972]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BranMan/12-2-2022Push/ThirdPersonBP/Blueprints/OldThirdPersonCharacter.OldThirdPersonCharacter
+[2022.12.02-19.52.58:083][972]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.58:245][972]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.58:286][974]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.58:303][975]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.58:319][976]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.58:333][977]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.58:349][978]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.58:364][979]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.58:381][980]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.58:413][981]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.58:432][982]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.58:453][983]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.58:470][984]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.58:486][985]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.58:501][986]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.58:519][987]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.52.58:538][988]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.53.00:799][115]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.53.12:387][797]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.53.26:807][647]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.53.27:961][716]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.53.33:608][ 31]LogSlate: Window 'OldThirdPersonCharacter' being destroyed
+[2022.12.02-19.54.18:195][383]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.54.32:258][120]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BranMan/BranMan/Blueprints/Light/BP_GunLight.BP_GunLight
+[2022.12.02-19.55.46:073][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2022.12.02-19.55.46:094][490]LogSavePackage: Moving '../../../../../../UE_4.27/MoonGame/LunarEscape/Saved/ThirdPersonExampleMap_Auto1A9F169CD4754776F75E5E4BDD30571DD.tmp' to '../../../../../../UE_4.27/MoonGame/LunarEscape/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2022.12.02-19.55.46:096][490]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.047
+[2022.12.02-19.55.46:096][490]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.047
+[2022.12.02-19.56.14:018][112]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.56.17:761][325]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.56.29:863][994]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.56.34:996][299]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-19.56.39:331][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.12.02-19.56.40:847][550]LogSlate: Window 'Save Content' being destroyed
+[2022.12.02-19.56.40:899][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.12.02-19.56.40:915][550]LogSavePackage: Moving '../../../../../../UE_4.27/MoonGame/LunarEscape/Saved/ThirdPersonExampleMap3E02E7A046AF0DD49DA4E585EF33ADEA.tmp' to '../../../../../../UE_4.27/MoonGame/LunarEscape/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.12.02-19.56.40:925][550]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.047
+[2022.12.02-19.56.41:123][550]LogAssetEditorSubsystem: Opening Asset editor for World /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.02-19.56.41:123][550]Cmd: MAP LOAD FILE="../../../../../../UE_4.27/MoonGame/LunarEscape/Content/BranMan/ThirdPersonBPFor11-26Push/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.12.02-19.56.41:124][550]LightingResults: New page: Lighting Build
+[2022.12.02-19.56.41:124][550]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2022.12.02-19.56.41:126][550]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.02-19.56.41:127][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.02-19.56.41:127][550]MapCheck: New page: Map Check
+[2022.12.02-19.56.41:127][550]LightingResults: New page: Lighting Build
+[2022.12.02-19.56.41:149][550]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.02-19.56.41:158][550]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2022.12.02-19.56.41:160][550]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonExampleMap'.
+[2022.12.02-19.56.41:162][550]PIE: Warning: Trying to simulate physics on ''/Game/BranMan/ThirdPersonBPFor11-26Push/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CubeMesh_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2022.12.02-19.56.41:284][550]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.12.02-19.56.41:284][550]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.12.02-19.56.41:309][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.12.02-19.56.41:316][550]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.12.02-19.56.41:316][550]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.151ms to complete.
+[2022.12.02-19.56.41:316][550]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.193
+[2022.12.02-19.56.41:334][550]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2022.12.02-19.56.41:334][550]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.02-19.56.45:931][810]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.02-19.56.45:942][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.02-19.56.45:942][810]BlueprintLog: Warning: Blueprint failed to compile:  OldThirdPersonCharacter
+[2022.12.02-19.56.45:943][810]LogCustomDialog: Dialog displayed:
+[2022.12.02-19.56.48:411][810]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2022.12.02-19.56.48:421][810]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 2, 2022, 9:56:48 AM)
+[2022.12.02-19.56.48:427][810]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.12.02-19.56.48:429][810]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.12.02-19.56.48:429][810]LogPlayLevel: Creating play world package: /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.12.02-19.56.48:444][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015105s)
+[2022.12.02-19.56.48:446][810]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.12.02-19.56.48:447][810]LogPlayLevel: PIE: World Init took: (0.002048s)
+[2022.12.02-19.56.48:447][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017686s)
+[2022.12.02-19.56.48:469][810]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.12.02-19.56.48:472][810]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.12.02-19.56.48:472][810]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.02-19.56.48:472][810]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.02-19.56.48:472][810]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.02-19.56.48:472][810]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.02-19.56.48:472][810]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.02-19.56.48:472][810]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.02-19.56.48:472][810]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.02-19.56.48:472][810]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.02-19.56.48:473][810]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.02-19.56.48:473][810]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.02-19.56.48:473][810]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.02-19.56.48:473][810]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.02-19.56.48:475][810]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.02-19.56.48:475][810]LogAudioMixer: Display: 1: FrontRight
+[2022.12.02-19.56.48:616][810]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.12.02-19.56.48:616][810]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.02-19.56.48:616][810]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.02-19.56.48:616][810]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.02-19.56.48:616][810]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.02-19.56.48:616][810]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.02-19.56.48:616][810]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.02-19.56.48:618][810]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.02-19.56.48:618][810]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.02-19.56.48:618][810]LogInit: FAudioDevice initialized.
+[2022.12.02-19.56.48:618][810]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonExampleMap'.
+[2022.12.02-19.56.48:638][810]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.12.02-19.56.48:649][810]PIE: Warning: Trying to simulate physics on ''/Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CubeMesh_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2022.12.02-19.56.48:652][810]LogWorld: Bringing World /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.12.02-14.56.48
+[2022.12.02-19.56.48:664][810]LogWorld: Bringing up level for play took: 0.015473
+[2022.12.02-19.56.48:665][810]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2022.12.02-19.56.48:685][810]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.12.02-19.56.48:698][810]PIE: Server logged in
+[2022.12.02-19.56.48:699][810]PIE: Play in editor total start time 2.762 seconds.
+[2022.12.02-19.56.50:696][913]PIE: Warning: AttachTo: '/Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder' root component cannot be attached to other components in the same actor. Aborting.
+[2022.12.02-19.56.51:862][983]LogBlueprintUserMessages: [BP_Bullet_C_0] Destoryed!!!
+[2022.12.02-20.01.20:248][ 78]LogBlueprintUserMessages: [BP_Bullet_C_1] Destoryed!!!
+[2022.12.02-20.01.21:196][135]LogBlueprintUserMessages: [BP_Bullet_C_2] Destoryed!!!
+[2022.12.02-20.01.21:899][177]LogBlueprintUserMessages: [BP_Bullet_C_3] Destoryed!!!
+[2022.12.02-20.01.22:131][191]LogBlueprintUserMessages: [BP_Bullet_C_4] Destoryed!!!
+[2022.12.02-20.01.23:114][250]LogBlueprintUserMessages: [BP_Bullet_C_5] Destoryed!!!
+[2022.12.02-20.01.23:463][271]LogBlueprintUserMessages: [BP_Bullet_C_6] Destoryed!!!
+[2022.12.02-20.01.23:647][282]LogBlueprintUserMessages: [BP_Bullet_C_7] Destoryed!!!
+[2022.12.02-20.01.23:814][292]LogBlueprintUserMessages: [BP_Bullet_C_8] Destoryed!!!
+[2022.12.02-20.01.23:964][301]LogBlueprintUserMessages: [BP_Bullet_C_9] Destoryed!!!
+[2022.12.02-20.01.24:114][310]LogBlueprintUserMessages: [BP_Bullet_C_10] Destoryed!!!
+[2022.12.02-20.01.25:096][369]LogBlueprintUserMessages: [BP_Bullet_C_11] Destoryed!!!
+[2022.12.02-20.01.25:281][380]LogBlueprintUserMessages: [BP_Bullet_C_12] Destoryed!!!
+[2022.12.02-20.01.25:431][389]LogBlueprintUserMessages: [BP_Bullet_C_13] Destoryed!!!
+[2022.12.02-20.01.25:630][401]LogBlueprintUserMessages: [BP_Bullet_C_14] Destoryed!!!
+[2022.12.02-20.01.25:797][411]LogBlueprintUserMessages: [BP_Bullet_C_15] Destoryed!!!
+[2022.12.02-20.01.25:947][420]LogBlueprintUserMessages: [BP_Bullet_C_16] Destoryed!!!
+[2022.12.02-20.01.27:480][512]LogBlueprintUserMessages: [BP_Bullet_C_17] Destoryed!!!
+[2022.12.02-20.01.27:647][522]LogBlueprintUserMessages: [BP_Bullet_C_18] Destoryed!!!
+[2022.12.02-20.01.27:814][532]LogBlueprintUserMessages: [BP_Bullet_C_19] Destoryed!!!
+[2022.12.02-20.01.29:381][626]LogBlueprintUserMessages: [BP_Bullet_C_20] Destoryed!!!
+[2022.12.02-20.01.30:448][690]LogBlueprintUserMessages: [BP_Bullet_C_21] Destoryed!!!
+[2022.12.02-20.01.31:622][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.02-20.01.31:622][758]LogWorld: BeginTearingDown for /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.12.02-20.01.31:625][758]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.02-20.01.31:626][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.02-20.01.31:633][758]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.02-20.01.31:638][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.02-20.01.31:663][758]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.02-20.01.31:665][758]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.02-20.01.31:667][758]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.02-20.01.31:689][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.02-20.01.31:700][758]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2022.12.02-20.01.31:836][759]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.12.02-20.01.33:337][831]LogSlate: Window 'Message Log' being destroyed
+[2022.12.02-20.01.33:369][831]LogSlate: Window 'Message Log' being destroyed
+[2022.12.02-20.01.50:915][741]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BranMan/BranMan/Blueprints/items/Guns/BP_Gun.BP_Gun
+[2022.12.02-20.01.59:441][193]BlueprintLog: New page: Compile BP_Gun
+[2022.12.02-20.01.59:559][193]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2022.12.02-20.01.59:575][193]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_2.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-20.01.59:576][193]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_5:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-20.01.59:576][193]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_6:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-20.01.59:576][193]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-20.01.59:593][193]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_2.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-20.01.59:593][193]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_5:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-20.01.59:594][193]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_6:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-20.01.59:594][193]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-20.02.03:857][425]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.02-20.02.03:863][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.02-20.02.03:863][425]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 2, 2022, 10:02:03 AM)
+[2022.12.02-20.02.03:863][425]LogPlayLevel: Creating play world package: /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.12.02-20.02.03:875][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011897s)
+[2022.12.02-20.02.03:876][425]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.12.02-20.02.03:877][425]LogPlayLevel: PIE: World Init took: (0.001123s)
+[2022.12.02-20.02.03:877][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013179s)
+[2022.12.02-20.02.03:907][425]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2022.12.02-20.02.03:912][425]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.12.02-20.02.03:912][425]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.02-20.02.03:912][425]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.02-20.02.03:912][425]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.02-20.02.03:912][425]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.02-20.02.03:912][425]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.02-20.02.03:912][425]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.02-20.02.03:912][425]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.02-20.02.03:912][425]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.02-20.02.03:913][425]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.02-20.02.03:913][425]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.02-20.02.03:913][425]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.02-20.02.03:913][425]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.02-20.02.03:914][425]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.02-20.02.03:914][425]LogAudioMixer: Display: 1: FrontRight
+[2022.12.02-20.02.04:044][425]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.12.02-20.02.04:044][425]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.02-20.02.04:044][425]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.02-20.02.04:044][425]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.02-20.02.04:045][425]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.02-20.02.04:045][425]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.02-20.02.04:045][425]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.02-20.02.04:046][425]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.02-20.02.04:046][425]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.02-20.02.04:046][425]LogInit: FAudioDevice initialized.
+[2022.12.02-20.02.04:046][425]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonExampleMap'.
+[2022.12.02-20.02.04:055][425]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.12.02-20.02.04:057][425]PIE: Warning: Trying to simulate physics on ''/Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.CubeMesh_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2022.12.02-20.02.04:059][425]LogWorld: Bringing World /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.12.02-15.02.04
+[2022.12.02-20.02.04:059][425]LogWorld: Bringing up level for play took: 0.002593
+[2022.12.02-20.02.04:059][425]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2022.12.02-20.02.04:062][425]PIE: Server logged in
+[2022.12.02-20.02.04:063][425]PIE: Play in editor total start time 0.2 seconds.
+[2022.12.02-20.02.05:936][531]PIE: Warning: AttachTo: '/Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.CollisionCylinder' root component cannot be attached to other components in the same actor. Aborting.
+[2022.12.02-20.02.17:555][228]LogBlueprintUserMessages: [BP_Bullet_C_18] Destoryed!!!
+[2022.12.02-20.02.17:557][228]LogBlueprintUserMessages: [Light_2] Light is now green
+[2022.12.02-20.02.20:337][395]LogBlueprintUserMessages: [BP_Bullet_C_22] Destoryed!!!
+[2022.12.02-20.02.20:337][395]LogBlueprintUserMessages: [Light3] Light is now green
+[2022.12.02-20.02.22:703][537]LogBlueprintUserMessages: [BP_Bullet_C_24] Destoryed!!!
+[2022.12.02-20.02.22:703][537]LogBlueprintUserMessages: [Light2] Light is now green
+[2022.12.02-20.02.28:581][888]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'inventoryItems' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C'!
+[2022.12.02-20.02.28:581][888]LogScript: Warning: Switch statement failed to match case for index property Temp_int_Variable
+	ThirdPersonCharacter_C /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1B3C
+[2022.12.02-20.02.28:581][888]LogScript: Warning: Accessed None trying to read property K2Node_Select_Default_2
+	ThirdPersonCharacter_C /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1B45
+[2022.12.02-20.02.28:581][888]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_Select_Default_2". Blueprint:  ThirdPersonCharacter Function:  Execute Ubergraph Third Person Character Graph:  EventGraph Node:  Set Actor Hidden In Game
+[2022.12.02-20.02.33:195][165]LogBlueprintUserMessages: [BP_Bullet_C_26] Destoryed!!!
+[2022.12.02-20.02.34:013][214]LogBlueprintUserMessages: [BP_Bullet_C_27] Destoryed!!!
+[2022.12.02-20.02.40:528][605]LogBlueprintUserMessages: [BP_Bullet_C_35] Destoryed!!!
+[2022.12.02-20.02.40:678][614]LogBlueprintUserMessages: [BP_Bullet_C_36] Destoryed!!!
+[2022.12.02-20.02.42:095][699]LogBlueprintUserMessages: [BP_Bullet_C_39] Destoryed!!!
+[2022.12.02-20.02.42:095][699]LogBlueprintUserMessages: [Light7] Light is now green
+[2022.12.02-20.02.42:529][725]LogBlueprintUserMessages: [BP_Bullet_C_41] Destoryed!!!
+[2022.12.02-20.02.42:530][725]LogBlueprintUserMessages: [Light5] Light is now green
+[2022.12.02-20.02.42:695][735]LogBlueprintUserMessages: [BP_Bullet_C_42] Destoryed!!!
+[2022.12.02-20.02.42:830][743]LogBlueprintUserMessages: [BP_Bullet_C_43] Destoryed!!!
+[2022.12.02-20.02.42:830][743]LogBlueprintUserMessages: [Light6] Light is now green
+[2022.12.02-20.02.45:028][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.02-20.02.45:028][872]LogWorld: BeginTearingDown for /Game/BranMan/ThirdPersonBPFor11-26Push/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.12.02-20.02.45:029][872]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.02-20.02.45:029][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.02-20.02.45:040][872]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.02-20.02.45:045][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.02-20.02.45:071][872]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.02-20.02.45:072][872]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.02-20.02.45:073][872]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.02-20.02.45:092][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.02-20.02.45:097][872]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.12.02-20.02.45:236][873]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.12.02-20.02.46:133][913]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-20.02.46:848][948]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-20.02.47:922][  3]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-20.02.49:406][ 88]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-20.02.52:516][260]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-20.02.52:867][281]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-20.02.53:115][296]LogScript: Warning: Accessed None trying to read property Player
+	ThirdPerson_AnimBP_C /Engine/Transient.World_7:PersistentLevel.OldThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00D0
+[2022.12.02-20.03.12:676][419]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.12.02-20.03.12:677][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
