@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial;
+            background-color: #18191A;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        canvas {
+            visibility: hidden;
+            padding: 0;
+            margin: auto;
+            display: block;
+            width: 700px;
+            height: 700px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        .button{
+            visibility: visible;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        .button button {
+            padding: 8px;
+            margin: 2px;
+            background-color: black;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            border: none;
+            transform: scale(5.0);
+        }
+        button:hover{
+            transform: scale(5.2);
+            background-color: #4C9A2A;
+        }
+    </style>    
+</head>
+
+<body>
+    <h1></h1>
+    <div class = "button">
+        <button>Play</button>
+    </div>
+    <canvas class = "game" id="game" width="400" height="400"/>
+    <script src="index.js"></script>
+</body>
+</html>
