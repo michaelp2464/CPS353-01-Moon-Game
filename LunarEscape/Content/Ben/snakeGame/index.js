@@ -109,7 +109,7 @@ window.addEventListener('DOMContentLoaded', () => {
   
     snakeParts.push(new SnakePart(headX, headY)); //put an item at the end of the list next to the head
     while (snakeParts.length > tailLength) {
-      snakeParts.shift(); // remove the furthet item from the snake parts if have more than our tail size.
+      snakeParts.shift(); // remove the furthest item from the snake parts if have more than our tail size.
     }
   
     ctx.fillStyle = "orange";
@@ -135,7 +135,6 @@ window.addEventListener('DOMContentLoaded', () => {
         squareNum+=1;
         speed+=1;
         console.log(squareNum + "1");
-        return squareNum;
       }
     } else if(squareNum == 2){
       if (boxX === headX && boxY+1 == headY) { //change the square's collision 
@@ -160,7 +159,7 @@ window.addEventListener('DOMContentLoaded', () => {
         boxX = Math.floor(Math.random() * ((tileCount-5) - 5) + 5); //choose a new, random location
         boxY = Math.floor(Math.random() * ((tileCount-5) - 5) + 5); 
         squareNum=1; //reset the sequence
-        speed+=1;
+        speed-=3;
         console.log(squareNum + "4");
       }
     }
